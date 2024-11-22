@@ -1,0 +1,299 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Help</title>
+    <!-- <link rel="stylesheet" href="styl.css"> -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+header nav ul li:hover {
+   background-color: green;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+.search{
+   border-radius: 50% 0% 50% 0%;
+   text-align: center;
+   border-style: none;
+   outline: 0;
+}
+footer {
+            background-color: #1e1e1e;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+            margin-top: 1%;
+        }
+
+        footer .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        footer p {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer .social-links {
+            margin-top: 15px;
+        }
+
+        footer .social-links a {
+            margin: 0 10px;
+        }
+
+        footer .footer-note {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #bbb;
+        }
+
+        /* Logo styling */
+        footer .footer-logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 8px;
+            display: block;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        textarea {
+            resize: vertical;
+            height: 150px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .section-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px;
+            /* background-color: #fff; */
+            
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Image styles */
+        .image-container {
+            flex: 1;
+            max-width: 45%;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Text Box styles */
+        .text-container {
+            flex: 1;
+            padding: 20px;
+            margin-left: 20px;
+            background-color:black;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 5px solid;
+            border-image: linear-gradient(45deg, #ff6f61, #ff9800, #8bc34a,red,yellow,blue) 1;
+        }
+
+        .text-container h2 {
+            color: blue;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .text-container p {
+            color: white;
+            line-height: 1.6;
+        }
+         /* Responsive Design - Mobile first */
+         @media (max-width: 768px) {
+            .container {
+                max-width: 90%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            label {
+                font-size: 14px;
+            }
+            input, textarea, button {
+                font-size: 14px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 20px;
+            }
+            label {
+                font-size: 12px;
+            }
+            input, textarea, button {
+                font-size: 12px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><input type="search" placeholder="Search" class="search" ></li>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Cource.html">Cource</a></li>
+                <li><a href="Hel.html">help</a></li>
+                <!-- <li><a href="login.php">Log In</a></li> -->
+                <!-- <li><a href="signup.php" class="sig">SignIn</a></li> -->
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Our Website</h1>
+        <p>Your success starts here.</p>
+    </section>
+    <div class="container">
+        <h1>Help Form</h1><br>
+        <p>Please provide the necessary information below. You can upload a photo and submit your query or feedback in the text area.</p>
+    
+        <form action="your-server-endpoint" method="POST" enctype="multipart/form-data">
+            
+            <!-- Text input -->
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+    
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+    
+            <!-- File upload input -->
+            <label for="file">Upload a Photo:</label>
+            <input type="file" id="file" name="file" accept="image/*" required>
+    
+            <!-- Textarea input -->
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" placeholder="Type your message here" required></textarea>
+    
+            <!-- Submit button -->
+            <button type="submit"  style="background-color: #45a049; width: 100px;">Submit</button>
+        </form>
+    </div>
+    <section class="section-container">
+        <!-- Image Section -->
+        <div class="image-container">
+            <img src="ashis.jpg" alt="Image Example">
+        </div>
+
+        <!-- Text Box Section -->
+        <div class="text-container">
+            <h2>Hello ,I'm Ashish Chahar</h2>
+            <p> The Director of this website here you can get notes of coding langauge.notes are so easy. I am CS Student If you have any kind of doubt just go to help section and type&send pic of your problem.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Responsive Website</p>
+        
+            <div class="footer-content">
+                <!-- Logo -->
+                <img src="study.jpg" alt="Your Logo" class="footer-logo">
+    
+                <p>© 2024 [Your Name] | All Rights Reserved</p>
+                <p>Built with ❤️ using HTML, CSS, and JavaScript</p>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername">GitHub</a>
+                    <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+                    <a href="mailto:your.email@example.com">Email</a>
+                    <a href="/privacy-policy">Privacy Policy</a>
+                </div>
+                <p class="footer-note">This website was created to showcase my projects, skills, and experiences as a developer.</p>
+            </div>
+        
+    </footer>
