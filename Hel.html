@@ -11,7 +11,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            background-image:linear-gradient(to top,yellow,white,blue);
             margin: 0;
             padding: 20px;
         }
@@ -186,18 +186,8 @@ footer {
         }
          /* Responsive Design - Mobile first */
          @media (max-width: 768px) {
-            .container {
-                max-width: 90%;
-                padding: 15px;
-            }
             h1 {
                 font-size: 24px;
-            }
-            label {
-                font-size: 14px;
-            }
-            input, textarea, button {
-                font-size: 14px;
             }
             p {
                 font-size: 14px;
@@ -207,12 +197,6 @@ footer {
         @media (max-width: 480px) {
             h1 {
                 font-size: 20px;
-            }
-            label {
-                font-size: 12px;
-            }
-            input, textarea, button {
-                font-size: 12px;
             }
             p {
                 font-size: 12px;
@@ -226,7 +210,7 @@ footer {
         <nav>
             <ul>
                 <li><input type="search" placeholder="Search" class="search" ></li>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="Index.html">Home</a></li>
                 <li><a href="Cource.html">Cource</a></li>
                 <li><a href="Hel.html">help</a></li>
                 <!-- <li><a href="login.php">Log In</a></li> -->
@@ -240,30 +224,14 @@ footer {
         <h1>Welcome to Our Website</h1>
         <p>Your success starts here.</p>
     </section>
-    <div class="container">
-        <h1>Help Form</h1><br>
+    <div class="text-container">
+        <h1 style="color:#007bff;">Help Form</h1><br>
         <p>Please provide the necessary information below. You can upload a photo and submit your query or feedback in the text area.</p>
-    
-        <form action="your-server-endpoint" method="POST" enctype="multipart/form-data">
-            
-            <!-- Text input -->
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your name">
-    
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required placeholder="Enter your email">
-    
-            <!-- File upload input -->
-            <label for="file">Upload a Photo:</label>
-            <input type="file" id="file" name="file" accept="image/*" required>
-    
-            <!-- Textarea input -->
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" placeholder="Type your message here" required></textarea>
-    
-            <!-- Submit button -->
-            <button type="submit"  style="background-color: #45a049; width: 100px;">Submit</button>
-        </form>
+     <p>Hello Coder if you have any kind of problem .Then take a screenshot of your error our team will help you as soon as possible. </p>
+
+            <!-- <button type="submit" href="https://docs.google.com/forms/d/e/1FAIpQLSebV_dslsefIzLJVJxIfNvjNbROcu5_Z58Q_K2WaRKogWM03g/viewform?usp=sf_link" style="background-color: #45a049; width: 100px;">Click Here</button> -->
+            <button style="background-color: #45a049; width: 100px;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSebV_dslsefIzLJVJxIfNvjNbROcu5_Z58Q_K2WaRKogWM03g/viewform?usp=sf_link">Click Here</a></button>
+        
     </div>
     <section class="section-container">
         <!-- Image Section -->
