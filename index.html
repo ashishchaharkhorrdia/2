@@ -1,80 +1,2324 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
-    <link rel="stylesheet" href="styl.css">
-    <meta name="theme-color" content="008000">
-    <link rel="website icon " type="png" href="WhatsApp Image 2024-12-15 at 13.55.52_f7b5455f.jpg
-">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><input type="search" placeholder="Search" class="search" ></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Cource.html">Project</a></li>
-<!--                 <li><a href="Hel.html">help</a></li> -->
-                <!-- <li><a href="login.php">Log In</a></li> -->
-                <!-- <li><a href="signup.php" class="sig">SignIn</a></li> -->
-                
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <h1>Welcome to Our Website</h1>
-        <p>Your success starts here.</p>
-    </section>
-
-    <section class="features">
-        <div class="feature" style="background-color: orange;">
-            <h2>Python</h2>
-            <p><a href="https://www.python.org/downloads/">Download Link</a></p>
-        </div>
-        <div class="feature" style="background-color: white;">
-            <h2>SQL</h2>
-            <p><a href="https://dev.mysql.com/downloads/mysql/">Download Link</a></p>
-        </div>
-        <div class="feature" style="background-color: green;">
-            <h2>VS COde</h2>
-            <p><a href="https://code.visualstudio.com/">Download Link</a></p>
-        </div>
-    </section>
-    <section class="section-container">
-        <!-- Image Section -->
-        <div class="image-container">
-            <img src="ashis.jpg" alt="Image Example">
-        </div>
-
-        <!-- Text Box Section -->
-        <div class="text-container">
-            <h2>Hello ,I'm Ashish Chahar</h2>
-            <p> I am an efficient and confident sales executive with demonstrated experience in the logistics and supply chain industry. My experience helped me develop expert knowledge of the sales process and supply chain. I am highly motivated to continue learning and improving my craft.</p>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Responsive Website</p>
-        
-            <div class="footer-content">
-                <!-- Logo -->
-                <img src="study.jpg" alt="Your Logo" class="footer-logo">
+<html>
+<!-- Last Published: Wed Nov 20 2024 14:45:48 GMT+0000 (Coordinated Universal Time) -->
+ <!-- <html data-wf-domain="www.paradigm-solutions.io" data-wf-page="672799259500d2477d1eafa9" data-wf-site="672799259500d2477d1eafa5" lang="en" data-wf-locale="en"> -->
+  <head>
+    <meta charset="utf-8"/><title>Portfolio</title>
+    <link rel="website icon " type="png" href="pro.jpg">
+  
+    <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-scrolldisable@1/scrolldisable.js"></script>
+    <!-- [Attributes by Finsweet] Modal -->
+    <script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-modal@1/modal.js"></script>
+    <!-- [Attributes by Finsweet] Form Submit Actions -->
+    <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-formsubmit@1/formsubmit.js"></script>
+    <!-- Finsweet Cookie Consent -->
+    <script async src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js" fs-cc-mode="opt-in"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+   
+ 
+    <link href="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/css/paradigm-stage.webflow.d5369e740.min.css" rel="stylesheet" type="text/css"/>
+   
     
-                <p>© 2024 [Your Name] | All Rights Reserved</p>
-                <p>Built with ❤️ using HTML, CSS, and JavaScript</p>
-                <div class="social-links">
-                    <a href="https://github.com/yourusername">GitHub</a>
-                    <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
-                    <a href="mailto:your.email@example.com">Email</a>
-                    <a href="/privacy-policy">Privacy Policy</a>
-                </div>
-                <p class="footer-note">This website was created to showcase my projects, skills, and experiences as a developer.</p>
-            </div>
-        
-    </footer>
-</body>
-</html>
+    
+    
+    <style>
+      [fade-in-animation] {
+    opacity: 0;
+  }
+
+  [hero-content], .hero-border-wrap {
+    opacity: 0;
+  }
+  
+  .hero-border-wrap {
+      width: 20%;
+  }
+
+  [secondary-btn-gr]:after {
+    content: '';
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    background-clip: border-box;
+    -webkit-mask: var(--full) padding-box, var(--full);
+    -webkit-mask-composite: xor;
+    mask: var(--full) padding-box exclude, var(--full);
+    pointer-events: none;
+    background: var(--stroke-gr-2) border-box;
+    z-index: 1;
+  }
+
+  [stroke-gr]:before {
+    content: '';
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    background-clip: border-box;
+    -webkit-mask: var(--full) padding-box, var(--full);
+    -webkit-mask-composite: xor;
+    mask: var(--full) padding-box exclude, var(--full);
+    pointer-events: none;
+    background: var(--stroke-gr) border-box;
+    z-index: 1;
+  }
+
+  [stroke-gr-3]:before {
+    content: '';
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    background-clip: border-box;
+    -webkit-mask: var(--full) padding-box, var(--full);
+    -webkit-mask-composite: xor;
+    mask: var(--full) padding-box exclude, var(--full);
+    pointer-events: none;
+    background: var(--stroke-gr-3) border-box;
+    z-index: 1;
+  }
+
+  [stroke-gr-4]:before {
+    content: '';
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    background-clip: border-box;
+    -webkit-mask: var(--full) padding-box, var(--full);
+    -webkit-mask-composite: xor;
+    mask: var(--full) padding-box exclude, var(--full);
+    pointer-events: none;
+    background: var(--stroke-gr-4) border-box;
+    z-index: 1;
+  }
+
+  [stroke-gr-5]:before {
+    content: '';
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    background-clip: border-box;
+    -webkit-mask: var(--full) padding-box, var(--full);
+    -webkit-mask-composite: xor;
+    mask: var(--full) padding-box exclude, var(--full);
+    pointer-events: none;
+    background: var(--stroke-gr-5) border-box;
+    z-index: 1;
+  }
+
+  [stroke-gr-7]:before {
+    content: '';
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    background-clip: border-box;
+    -webkit-mask: var(--full) padding-box, var(--full);
+    -webkit-mask-composite: xor;
+    mask: var(--full) padding-box exclude, var(--full);
+    pointer-events: none;
+    background: var(--stroke-gr-7) border-box;
+    z-index: 1;
+  }
+
+  [stroke-gr-8]:before {
+    content: '';
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    background-clip: border-box;
+    -webkit-mask: var(--full) padding-box, var(--full);
+    -webkit-mask-composite: xor;
+    mask: var(--full) padding-box exclude, var(--full);
+    pointer-events: none;
+    background: var(--stroke-gr-8) border-box;
+    z-index: 1;
+  }
+
+  [stroke-gr-9]:before {
+    content: '';
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    background-clip: border-box;
+    -webkit-mask: var(--full) padding-box, var(--full);
+    -webkit-mask-composite: xor;
+    mask: var(--full) padding-box exclude, var(--full);
+    pointer-events: none;
+    background: var(--stroke-gr-9) border-box;
+    z-index: 1;
+  }
+
+  [stroke-gr-10]:before {
+    content: '';
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    background-clip: border-box;
+    -webkit-mask: var(--full) padding-box, var(--full);
+    -webkit-mask-composite: xor;
+    mask: var(--full) padding-box exclude, var(--full);
+    pointer-events: none;
+    background: var(--stroke-gr-10) border-box;
+    z-index: 1;
+  }
+
+  [stroke-gr-11]:before {
+    content: '';
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    background-clip: border-box;
+    -webkit-mask: var(--full) padding-box, var(--full);
+    -webkit-mask-composite: xor;
+    mask: var(--full) padding-box exclude, var(--full);
+    pointer-events: none;
+    background: var(--stroke-gr-11) border-box;
+    z-index: 1;
+  }
+
+  [stroke-primary-btn-gr]:before {
+    content: '';
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    border: 2px solid transparent;
+    background-clip: border-box;
+    -webkit-mask: var(--full) padding-box, var(--full);
+    -webkit-mask-composite: xor;
+    mask: var(--full) padding-box exclude, var(--full);
+    pointer-events: none;
+    background: var(--primary-btn-70) border-box;
+    z-index: 1;
+  }
+
+  [icons-active-gr]:before {
+    content: '';
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    border: 2px solid transparent;
+    background-clip: border-box;
+    -webkit-mask: var(--full) padding-box, var(--full);
+    -webkit-mask-composite: xor;
+    mask: var(--full) padding-box exclude, var(--full);
+    pointer-events: none;
+    background: var(--icon-active-gr) border-box;
+    z-index: 1;
+  }
+
+  [text-1-gr] {
+    background: var(--text-1-gr);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  [text-3-gr] {
+    background: var(--text-3-gr);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  [text-5-gr] {
+    background: var(--text-5-gr);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  [text-6-gr] {
+    background: var(--text-6-gr);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  [icons-active-bg-gr] {
+    background: var(--icon-active-gr);
+  }
+
+  [primary-btn-gr] {
+    background: var(--primary-btn-70);
+  }
+
+  [bg-gr-2] {
+    background: var(--bg-gr-2);
+  }
+  :root {
+    --full: linear-gradient(red 0 0);
+    --bg-gr-1: linear-gradient(90deg, rgba(255, 255, 255, 0.06) -7.35%, rgba(5, 22, 38, 0.06) 100.18%);
+    --bg-gr-2: linear-gradient(90deg, rgba(5, 22, 38, 0.06) 0%, rgba(255, 255, 255, 0.06) 49%, rgba(5, 22, 38, 0.06) 100%);
+    --stroke-gr: linear-gradient(317deg, #13fdfd 0%, rgba(19, 215, 253, 0.2) 38.23%, rgba(19, 191, 253, 0.2) 62.96%, #139bfd 100%);
+    --stroke-gr-2: linear-gradient(180deg, #e1f9ff 0%, rgba(225, 249, 255, 0.2) 41.14%, rgba(225, 249, 255, 0.2) 100%);
+    --stroke-gr-3: linear-gradient(180deg, rgba(227, 241, 255, 0.06) 0%, rgba(227, 241, 255, 0) 100%);
+    --stroke-gr-4: radial-gradient(92.46% 222.14% at 15.65% -7.58%, rgba(127, 226, 251, 0.20) 0%, rgba(127, 226, 251, 0.02) 100%);
+    --stroke-gr-5: linear-gradient(319deg, #081722 55.06%, #139BFD 101.7%);
+    --stroke-gr-6: linear-gradient(330deg, #13FDFD -9.02%, rgba(19, 217, 253, 0.40) 34.32%, rgba(19, 194, 253, 0.40) 63%, #139BFD 110.7%);
+    --stroke-gr-7: linear-gradient(90deg, rgba(126, 225, 250, 0.20) 0%, rgba(255, 255, 255, 0.00) 61.34%);
+    --stroke-gr-8: linear-gradient(330deg, #13FDFD -18%, rgba(19, 215, 253, 0.20) 31.06%, rgba(19, 191, 253, 0.20) 62.8%, #139BFD 110.33%);
+    --stroke-gr-9: linear-gradient(188deg, #7ee1fa 0%, rgba(126, 225, 250, 0) 67.02%, rgba(126, 225, 250, 0) 100%), linear-gradient(190deg, rgba(126, 225, 250, 0) 0%, rgba(126, 225, 250, 0) 67.02%, #7ee1fa 100%);
+    --stroke-gr-10: linear-gradient(224deg, #14e3fd 0%, #14acfd 100%);
+    --stroke-gr-11: linear-gradient(104deg, rgba(127, 226, 251, 0.1) 0%, rgba(255, 255, 255, 0) 40.58%, rgba(255, 255, 255, 0) 55.74%, rgba(127, 226, 251, 0.1) 100%);
+    --primary-btn-70: radial-gradient(84.47% 109.01% at 54.28% 50%, rgb(3, 16, 28) 0%, rgb(64, 64, 64) 100%);
+    --primary-btn-hover: radial-gradient(44.7% 71.22% at 50% 49.28%, rgba(3, 16, 28, 0.00) 0%, #107ECD 100%);
+    --secondary-btn: radial-gradient(120.73% 74.12% at 50% 50%, rgb(5, 10, 13) 0%, rgb(5, 10, 13) 65.51668643951416%);
+    --text-1-gr: radial-gradient(286.94% 255.84% at 43.93% 53.96%, rgb(255, 255, 255) 0%, rgb(19, 155, 253) 100%);
+    --text-2-gr: radial-gradient(286.93% 147% at 52.62% 50%, rgb(255, 255, 255) 0%, rgb(19, 253, 253) 80.50000071525574%);
+    --text-3-gr: radial-gradient(385.89% 157.96% at 50.04%  78.37%, rgb(255, 255, 255) 0%, rgb(19, 253, 253) 94.9999988079071%);
+    --text-4-gr: radial-gradient(124.77% 121.56% at 55.15%  91.59%, rgb(2, 11, 17) 0%, rgb(64, 64, 64) 100%);
+    --text-5-gr: radial-gradient(434.03% 209.87% at 27.66%  -0.00%, rgb(255, 255, 255) 0%, rgb(19, 253, 253) 80.50000071525574%);
+    --text-6-gr: linear-gradient(312deg, #13fdfd 0%, #139bfd 100%);
+    --icon-active-gr: linear-gradient(315deg, #13fdfd 0%, #139bfd 100%);
+    --icon-disabled-gr: linear-gradient(191deg, #75848f 0%, rgba(34, 38, 41, 0.5) 100%);
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  /* Make text look crisper and more legible in all browsers */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+  }
+
+  /* Fluid responsive */
+  html {
+    font-size: calc(16*(100vw / 1440));
+  }
+
+  @media (max-width: 479px) {
+    html {
+      font-size: calc(16*(100vw / 375));
+    }
+  }
+
+  @media (min-width: 1440px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+    @media (min-width: 1920px) {
+    html {
+      font-size: calc(16*(100vw / 1920));
+    }
+  }
+
+  img {
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 0.75rem;
+  }
+
+  /* Snippet gets rid of top margin on first element in any rich text*/
+  .w-richtext>:first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  /* Snippet gets rid of bottom margin on last element in any rich text*/
+  .w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .w-dropdown-btn,
+  .w-dropdown-toggle,
+  .w-dropdown-link {
+    color: inherit;
+    text-decoration: inherit;
+    font-size: inherit;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+
+  /* Apply "..." after 3 lines of text */
+  .text-style-3lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  /* Apply "..." after 2 lines of text */
+  .text-style-2lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .error {
+    color: var(--error);
+  }
+  
+  .parsley-errors-list {
+      list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--error);
+  }
+
+  .splide__pagination__page {
+    opacity: 1;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0 3px!important;
+    background-color: var(--white-06);
+  }
+  .splide__pagination__page.is-active {
+    transform: none!important;
+    background-color: #fff;
+  }
+
+  .splide__pagination {
+    bottom: -5.375rem;
+    left: 0;
+    padding: 0 1em;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    transform: translateY(100%);
+  }
+
+  [slide-up-text-anim-once] .line {
+    overflow: hidden;
+  }
+
+  [slide-up-text-anim-once] .word {
+    background: var(--text-1-gr);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .marquee-overlay {
+    background: linear-gradient(90deg, #010A10 0%, rgba(1, 10, 16, 0.00) 13.67%, rgba(1, 10, 16, 0.00) 81.99%, #010A10 100%);
+  }
+  .marguee-item {
+    background: var(--bg-gr-1);
+  }
+  
+  /*
+  .contact-blur-top {
+      background: radial-gradient(50% 50% at 50% 50%, rgba(19, 155, 253, 0.30) 0%, rgba(1, 18, 30, 0.30) 69.7%, rgba(1, 18, 30, 0.90) 85.09%, rgba(1, 18, 30, 0.00) 100%);
+  }
+  .contact-blur-bottom {
+      background: radial-gradient(50% 50% at 50% 50%, rgb(19, 155, 253) 0%, rgb(1, 18, 30) 69.6953535079956%, rgb(1, 18, 30) 100%);
+  }
+  */
+
+  @media (max-width: 479px) {
+    [init-mobile-pagination] .splide__pagination {
+      bottom: 0.9rem;
+      transform: translateY(0%);
+    }
+  }
+  
+  .nav__link.w--current, .nav-text-link.w--current {
+    color: var(--text-grey);
+  }
+
+  .social-link img:nth-child(2) {
+    opacity: 0;
+  }
+
+  .slider-arrow:before {
+    border: 1px solid transparent!important;
+  }
+  .slider-arrow:disabled {
+    opacity: 50%;
+  }
+
+  .social-link:before {
+    border-width: 1px!important;
+  }
+
+  .nav__link:before {
+    opacity: 0;
+    inset: -1px;
+    transition: opacity 0.3s ease;
+  }
+
+  .nav-dropdown__list-inner:before {
+    opacity: 0;
+  }
+
+  .btn, .roles-btn {
+    /*
+    background: var(--primary-btn-70);
+    */
+  }
+
+  .btn-secondary {
+    background: var(--secondary-btn);
+  }
+
+  .btn:before {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-secondary:after {
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-secondary:before {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .faq-dropdown-toggle:before {
+    opacity: 0;
+  }
+
+  [dropdown-arrow] {
+    transition: transform 0.3s ease;
+  }
+  .w-dropdown-toggle.w--open [dropdown-arrow] {
+    transform: rotate(180deg);
+  }
+
+
+  [btn-border-anim] .btn-hack {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    inset: 0px;
+    border-radius: inherit;
+    padding: 2px; /* the thickness of the border */
+    /* the below will do the magic */
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, /* this will cover only the content (no padding) */ 
+      linear-gradient(#fff 0 0) padding-box; /* this will cover the content and the padding */
+    -webkit-mask-composite: destination-out; /* needed for old browsers until the below is more supported */
+    mask-composite: exclude; /* this will exclude the first layer from the second so only the padding area will be kept visible */
+  }
+
+  [btn-border-anim] .btn-hack:after {
+    content: '';
+    position: absolute;
+    width: 500%;
+    height: 500%;
+    background: conic-gradient(from 148deg, transparent 46%, #ffffff 50%, transparent 54%);
+    z-index: 1;
+    border-radius: inherit;
+    animation: animate 4s linear infinite;
+  }
+
+  [btn-border-anim]:hover .btn-hack:after  {
+    background: conic-gradient(from 148deg, transparent 46%, #139bfd 50%, transparent 54%);
+  }
+
+
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (max-width: 479px) {
+    .nav__link.w--current, .nav-text-link.w--current {
+      color: var(--blue);
+    }
+  }
+  input:autofill,
+  input:autofill:hover,
+  input:autofill:focus {
+    text-fill-color: #fff;
+    -webkit-text-fill-color: #fff;
+    box-shadow: 0 0 0px 40rem var(--bg-dark-80) inset;
+    -webkit-box-shadow: 0 0 0px 40rem var(--bg-dark-80) inset;
+    caret-color: #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus {
+    text-fill-color: #fff;
+    -webkit-text-fill-color: #fff;
+    box-shadow: 0 0 0px 40rem var(--bg-dark-80) inset;
+    -webkit-box-shadow: 0 0 0px 40rem var(--bg-dark-80) inset;
+    caret-color: #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+  }
+
+  input:focus {
+    outline: none!important;
+    transition: all 0s linear;
+  }
+
+  input:focus-visible {
+    box-shadow: inset 0 0 0 2px var(--color-btn-primary);
+    transition: all 0s linear;
+  }
+
+  :is(a, button, .w-dropdown-toggle):focus-visible {
+    outline: 2px solid #fff!important;
+    outline-offset: 2px!important;
+    transition: all 0s linear;
+    border-radius: 0.5rem;
+  }
+
+  @media (hover: hover) and (pointer: fine) and (min-width: 1024px) {
+   
+    .input:hover {
+      border-color: #fff;
+    }
+
+    .text-link:hover, .cookie-link:hover {
+      color: var(--blue);
+    }
+    
+
+    .nav__link:hover:before {
+      opacity: 1;
+    }
+
+    .video-close:hover, .nav-text-link:hover {
+      color: var(--blue);
+    }
+    .video-close:active {
+      opacity: 50%;
+    }
+
+    .faq-dropdown-toggle.w--open:before {
+      opacity: 1;
+    }
+
+    .social-link:hover img:nth-child(1) {
+      opacity: 0;
+    }
+    .social-link:hover img:nth-child(2) {
+      opacity: 1;
+    }
+
+    .nav__link.w--open:before {
+      opacity: 1;
+    }
+    .nav-dropdown__list.w--open .nav-dropdown__list-inner:before {
+      opacity: 1;
+    }
+
+    .btn:not(.cookie-btn):hover {
+      border-color: transparent;
+    }
+    .btn:not(.cookie-btn):hover:before {
+      opacity: 1;
+    }
+    .btn:hover .btn-bg {
+      opacity: 0;
+    }
+    .btn:hover .btn-bg-hover {
+      opacity: 1;
+    }
+    
+    .btn:hover .animating-block {
+        background: var(--blue);
+    }
+
+    .btn-secondary:hover:after {
+      opacity: 0;
+    }
+    .btn-secondary:hover:before {
+      opacity: 1;
+    }
+
+    .faq-dropdown-toggle:hover:before {
+      opacity: 1;
+    }
+  }
+
+  @media (hover: none) and (pointer: coarse) {
+
+  }
+
+  @keyframes noiseAnimation {
+    0% {
+      transform: translate(0)
+    }
+    10% {
+      transform: translate(-5%,-5%)
+    }
+    20% {
+      transform: translate(-10%,5%)
+    }
+    30% {
+      transform: translate(5%,-10%)
+    }
+    40% {
+      transform: translate(-5%,15%)
+    }
+    50% {
+      transform: translate(-10%,5%)
+    }
+    60% {
+      transform: translate(15%)
+    }
+    70% {
+      transform: translateY(10%)
+    }
+    80% {
+      transform: translate(-15%)
+    }
+    90% {
+      transform: translate(10%,5%)
+    }
+    to {
+      transform: translate(5%)
+    }
+  }
+  .noise:after {
+    content: "";
+    pointer-events: none;
+    will-change: transform;
+    animation: noiseAnimation 1s steps(4) infinite;
+    background-image: url("https://cdn.prod.website-files.com/66ec8a7d38194b26f3a9fc19/66ede4512663f913e8012b40_noise-p-v2.png");
+    width: 200%;
+    height: 200%;
+    display: block;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    opacity: 0.5;
+  }
+  [data-grid-attr='grid-item-1'] {
+    max-width: 31.125rem;
+  }
+  [data-grid-attr='grid-item-2'] {
+    max-width: 45.375rem;
+  }
+  [data-grid-attr='grid-item-3'] {
+    max-width: 45.375rem;
+  }
+  [data-grid-attr='grid-item-4'] {
+    max-width: 31.125rem;
+  }
+  [data-grid-attr='grid-item-5'] {
+    flex: 1 1 0;
+  }
+  [data-grid-attr='grid-item-6'] {
+    flex: 1 1 0;
+  }
+
+  .services .card-v1:before {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    will-change: opacity;
+  }
+  
+  .industries .card-v3:before {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    will-change: opacity;
+  }
+    </style>
+  </head>
+    <body>
+      
+    <div class="custom-code"><div class="gradient-attrs w-embed">
+    </div><div class="global-css w-embed"></div>
+    <div class="button-css w-embed"></div>
+    <div class="hover-active-focus w-embed"></div>
+    <div class="noise-css w-embed"></div></div>
+    <div class="page-css w-embed"></div>
+    <div class="page-wrapper">
+    <div data-animation="over-right" class="nav w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="tiny" role="banner" data-duration="400" data-doc-height="1">
+    <div class="container in-nav w-container"><a href="#" aria-label="paradigm logo" aria-current="page" class="logo in-nav w-nav-brand w--current">
+    <img width="124" height="27" alt="Ashish Logo" src="#" loading="lazy" data-logo="main" class="logo__img"/></a>
+    <nav role="navigation" class="nav__menu-wrap w-nav-menu"><div class="nav__menu"><div class="nav__links"><div data-hover="true" data-delay="0" data-w-id="2d0b4d4f-7304-f87e-7870-afaf3b03e252" class="nav-dropdown w-dropdown"><div stroke-gr-8="" class="nav__link in-dropdown w-dropdown-toggle"><div class="nav-text">Services</div>
+    <div dropdown-arrow="" class="arrow-20 in-dropdown w-embed">
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 20 8" fill="none">
+      <path d="M5 2L10 7L15 2" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg></div></div>
+    <nav class="nav-dropdown__list w-dropdown-list">
+      <div class="w-dyn-list">
+        <div stroke-gr-8="" role="list" class="nav-dropdown__list-inner w-dyn-items"><div role="listitem" class="w-dyn-item"><a href="https://ashishchaharkhorrdia.github.io/2/" class="nav-text-link">Low code</a></div><div role="listitem" class="w-dyn-item"><a href="https://ashishchaharkhorrdia.github.io/2/" class="nav-text-link">Web &amp; Mobile</a></div>
+        <div role="listitem" class="w-dyn-item"><a href="https://ashishchaharkhorrdia.github.io/2/" class="nav-text-link">Scale &amp; Performance</a></div>
+        <div role="listitem" class="w-dyn-item"><a href="https://ashishchaharkhorrdia.github.io/2/" class="nav-text-link">Custom Components</a></div>
+        <div role="listitem" class="w-dyn-item"><a href="https://ashishchaharkhorrdia.github.io/2/" class="nav-text-link">Full project support</a></div>
+        <div role="listitem" class="w-dyn-item"><a href="https://ashishchaharkhorrdia.github.io/2/" class="nav-text-link">Test Automation</a></div></div></div></nav></div>
+        <a stroke-gr-8="" href="https://ashishchaharkhorrdia.github.io/2/" class="nav__link w-inline-block"><div class="nav-text">About us</div></a><a stroke-gr-8="" href="/" class="nav__link is-last w-inline-block">
+        <div class="nav-text">Contact us</div></a><a stroke-gr-8="" secondary-btn-gr="" href="#email-form" class="btn btn-secondary in-nav w-inline-block"><div class="nav-text">Let’s talk</div></a></div></div></nav>
+        <div class="burger w-nav-button"><div class="burger__box"><div class="text-normal-16 burger-open">Menu</div>
+        <div class="text-normal-16 burger-close">Close</div></div></div></div></div>
+        <main class="main-wrapper"><section class="section home-hero"><div class="page-padding in-home-hero"><div class="w-layout-blockcontainer container w-container"><div class="wrap home-hero-wrap">
+        <div class="home-hero-inner"><div hero-content="" class="home-hero-heading"><h1 slide-up-text-anim-once="" class="title-1">Ashish Chahar</h1><div class="spacer-40 mobile-24"></div>
+        <div class="text-wrap"><p class="text-normal-18">Delivering solutions today, built with qualitythat empowers your tomorrow.</p></div>
+        <div class="spacer-40 mobile-32"></div><a btn-border-anim="" primary-btn-70="" stroke-gr="" href="#email-form" class="btn w-inline-block">
+        <div>Let’s talk</div><div class="arrow-20 w-embed"><svg width="100%" height="100%" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+        <path d="M8.5 15.5L12.5 11L8.5 6.5" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg></div>
+    <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb09a_btg-bg.svg" loading="lazy" width="195" height="56" alt="" class="btn-bg"/>
+    <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb099_btn-bg-hover.svg" alt="" width="193" height="62" class="btn-bg-hover"/>
+    <div class="animating-block"></div><div class="btn-hack"></div></a></div>
+    <div class="hero-border-wrap"><img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb042_border-left.avif" loading="lazy" width="143.5" height="404" alt="" class="hero-border is-left"/>
+    <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb043_border-right.avif" loading="lazy" width="143.5" height="404" alt="" class="hero-border is-right"/>
+    <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb044_border-left-mobile.avif" loading="lazy" width="138" height="341" alt="" class="hero-border is-left is-mobile"/>
+    <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb045_border-right-mobile.avif" loading="lazy" width="138" height="341" alt="" class="hero-border is-right is-mobile"/></div></div></div></div>
+    <div data-poster-url="https://cdn.prod.website-files.com/66ec8a7d38194b26f3a9fc19%2F66edbe7a6f9761695ee6d1cd_BlueParadigm-poster-00001.jpg" data-video-urls="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb037_BlueParadigm-transcode.mp4,https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb037_BlueParadigm-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="hero-video w-background-video w-background-video-atom"><video id="1d55df67-b138-d5eb-2ab3-7a6866e810fc-video" autoplay="" loop="" style="background-image:url(&quot;https://cdn.prod.website-files.com/66ec8a7d38194b26f3a9fc19%2F66edbe7a6f9761695ee6d1cd_BlueParadigm-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+        <source src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb037_BlueParadigm-transcode.mp4" data-wf-ignore="true"/><source src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb037_BlueParadigm-transcode.webm" data-wf-ignore="true"/></video></div>
+        <div class="home-hero-blur"></div></div></section><div class="marquee"><div class="marquee-track"><div class="marquee-content w-dyn-list"><div role="list" class="marquee-content__list w-dyn-items"><div role="listitem" class="marquee-content__list-item w-dyn-item"><div stroke-gr-7="" class="marguee-item"><div class="text-bold-14 in-marquee">200+</div>
+        <div class="text-normal-14">Applications built</div></div></div>
+        <div role="listitem" class="marquee-content__list-item w-dyn-item"><div stroke-gr-7="" class="marguee-item">
+        <div class="text-bold-14 in-marquee">20+</div><div class="text-normal-14">Advanced certifications</div></div></div>
+        <div role="listitem" class="marquee-content__list-item w-dyn-item">
+        <div stroke-gr-7="" class="marguee-item"><div class="text-bold-14 in-marquee">10+</div>
+        <div class="text-normal-14">Years of Experience</div></div></div><div role="listitem" class="marquee-content__list-item w-dyn-item"><div stroke-gr-7="" class="marguee-item">
+        <div class="text-bold-14 in-marquee">20+</div><div class="text-normal-14">Satisfied customers</div></div></div></div></div><div class="marquee-content w-dyn-list">
+        <div role="list" class="marquee-content__list w-dyn-items"><div role="listitem" class="marquee-content__list-item w-dyn-item"><div stroke-gr-7="" class="marguee-item">
+        <div class="text-bold-14 in-marquee">200+</div><div class="text-normal-14">Applications built</div></div></div>
+        <div role="listitem" class="marquee-content__list-item w-dyn-item">
+        <div stroke-gr-7="" class="marguee-item">
+        <div class="text-bold-14 in-marquee">20+</div>
+        <div class="text-normal-14">Advanced certifications</div></div></div>
+        <div role="listitem" class="marquee-content__list-item w-dyn-item">
+        <div stroke-gr-7="" class="marguee-item"><div class="text-bold-14 in-marquee">10+</div>
+        <div class="text-normal-14">Years of Experience</div></div></div>
+        <div role="listitem" class="marquee-content__list-item w-dyn-item">
+        <div stroke-gr-7="" class="marguee-item"><div class="text-bold-14 in-marquee">20+</div>
+        <div class="text-normal-14">Satisfied customers</div></div></div></div></div></div>
+        <div class="marquee-overlay"></div></div><section class="section about-paradigm">
+        <div class="page-padding"><div class="w-layout-blockcontainer container w-container">
+        <div stroke-gr-3="" class="wrap about-paradigm-wrap"><div class="about-paradigm-text-wrap">
+        <p class="text-medium-big">At Paradigm, we are committed to redefining excellence in software development. Our team comprises the industry&#x27;s best developers, dedicated to crafting top-tier solutions where quality code is our utmost priority.<br/>
+         ‍<br/>We answer your needs now, with quality built to last: So you can get the solutions you need today, delivered with the quality you can trust tomorrow.</p></div>
+        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0d2_We%20are%20Paradigm.svg" loading="lazy" width="1222" height="153" alt="" class="about-paradigm__svg-text"/>
+        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0ce_Ellipse%2076231231233.svg" loading="lazy" alt="" class="about-paradigm-blur-2"/>
+        <div class="about-paradigm__line-wrap-1"><img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0a4_Vector%207.svg" loading="lazy" width="12" height="158" alt="" class="about-paradigm__line-1"/></div>
+        <div class="about-paradigm__line-wrap-2"><img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0a3_Vector%208.svg" loading="lazy" width="12" height="158" alt="" class="about-paradigm__line-2"/></div></div></div></div></section>
+        <section class="section services"><div class="page-padding"><div class="w-layout-blockcontainer container w-container">
+        <div class="wrap services-wrap"><div class="heading">
+        <div stroke-gr-4="" class="caption"><div class="text-normal-12">our services</div></div>
+        <div class="spacer-32 mobile-12"></div><h2 slide-up-text-anim-once="" class="title-3">Accelerate your <br/>business goals with us</h2></div>
+        <div class="spacer-86 mobile-44"></div><div class="col-list-wrap w-dyn-list"><div role="list" class="col-list grid-v1 w-dyn-items">
+        <div rotate-on-hover="" data-grid-attr="grid-item-1" role="listitem" class="col-item services-item w-dyn-item">
+        <a stroke-gr="" href="https://ashishchaharkhorrdia.github.io/2/" class="card-v1 w-inline-block">
+        <div class="card-inner"><div class="arrow-34 services-item__arrow w-embed">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 25 25" fill="none" role="img">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.04779 11.8846C4.66636 12.266 4.66636 12.8844 5.04779 13.2658C5.42922 13.6473 6.04764 13.6473 6.42907 13.2658L11.5987 8.09621V19.4122C11.5987 19.9516 12.036 20.3889 12.5754 20.3889C13.1149 20.3889 13.5521 19.9516 13.5521 19.4122V8.09621L18.7218 13.2658C19.1032 13.6473 19.7216 13.6473 20.1031 13.2658C20.4845 12.8844 20.4845 12.266 20.1031 11.8846L13.2668 5.04827C13.2644 5.04591 13.262 5.04356 13.2597 5.04123C13.0841 4.86884 12.8437 4.76228 12.5784 4.7615C12.5774 4.7615 12.5764 4.7615 12.5754 4.7615C12.5745 4.7615 12.5735 4.7615 12.5725 4.7615C12.4411 4.76189 12.3159 4.78821 12.2016 4.83561C12.089 4.88219 11.9833 4.95073 11.8912 5.04123C11.8888 5.04353 11.8865 5.04584 11.8842 5.04817M5.04779 11.8846L11.8842 5.04817L5.04779 11.8846Z" fill="currentcolor"/>
+    </svg></div><div class="card-v1__inner">
+      <h3 class="title-5 color-white">Web &amp; Mobile Development</h3>
+      <div class="spacer-24 mobile-16"></div>
+      <p class="text-normal-18 mobile-16">We can deliver multi-channel applications that run on the web and mobile. </p></div></div>
+      <div class="card-bg"><img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb102_web-dev-bg-static.svg" loading="lazy" alt="" class="card-bg__static"/>
+        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb0e2_web-dev-bg-hover.svg" loading="lazy" alt="" class="card-bg__hover"/>
+        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb15e_web-dev-mobile.svg" loading="lazy" alt="" class="card-bg__mobile"/></div></a></div>
+        <div rotate-on-hover="" data-grid-attr="grid-item-2" role="listitem" class="col-item services-item w-dyn-item">
+          <a stroke-gr="" href="https://ashishchaharkhorrdia.github.io/2/" class="card-v1 w-inline-block">
+            <div class="card-inner"><div class="arrow-34 services-item__arrow w-embed">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 25 25" fill="none" role="img">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.04779 11.8846C4.66636 12.266 4.66636 12.8844 5.04779 13.2658C5.42922 13.6473 6.04764 13.6473 6.42907 13.2658L11.5987 8.09621V19.4122C11.5987 19.9516 12.036 20.3889 12.5754 20.3889C13.1149 20.3889 13.5521 19.9516 13.5521 19.4122V8.09621L18.7218 13.2658C19.1032 13.6473 19.7216 13.6473 20.1031 13.2658C20.4845 12.8844 20.4845 12.266 20.1031 11.8846L13.2668 5.04827C13.2644 5.04591 13.262 5.04356 13.2597 5.04123C13.0841 4.86884 12.8437 4.76228 12.5784 4.7615C12.5774 4.7615 12.5764 4.7615 12.5754 4.7615C12.5745 4.7615 12.5735 4.7615 12.5725 4.7615C12.4411 4.76189 12.3159 4.78821 12.2016 4.83561C12.089 4.88219 11.9833 4.95073 11.8912 5.04123C11.8888 5.04353 11.8865 5.04584 11.8842 5.04817M5.04779 11.8846L11.8842 5.04817L5.04779 11.8846Z" fill="currentcolor"/>
+    </svg></div><div class="card-v1__inner"><h3 class="title-5 color-white">Low Code Architecture &amp; Development</h3><div class="spacer-24 mobile-16"></div><p class="text-normal-18 mobile-16">We are experts in low-code development. Lean on us to help guide you on your low code journey or simply utilize our experts to deliver your projects quicker.</p></div></div><div class="card-bg"><img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb15c_lowcode-bg-v2.avif" loading="lazy" alt="" class="card-bg__static"/><img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb15d_lowcode-bg-hover-v2.avif" loading="lazy" alt="" class="card-bg__hover"/><img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb160_lowcode-mobile.avif" loading="lazy" alt="" class="card-bg__mobile"/></div></a></div><div rotate-on-hover="" data-grid-attr="grid-item-3" role="listitem" class="col-item services-item w-dyn-item">
+      <a stroke-gr="" href="https://ashishchaharkhorrdia.github.io/2/" class="card-v1 w-inline-block">
+        <div class="card-inner"><div class="arrow-34 services-item__arrow w-embed">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 25 25" fill="none" role="img">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.04779 11.8846C4.66636 12.266 4.66636 12.8844 5.04779 13.2658C5.42922 13.6473 6.04764 13.6473 6.42907 13.2658L11.5987 8.09621V19.4122C11.5987 19.9516 12.036 20.3889 12.5754 20.3889C13.1149 20.3889 13.5521 19.9516 13.5521 19.4122V8.09621L18.7218 13.2658C19.1032 13.6473 19.7216 13.6473 20.1031 13.2658C20.4845 12.8844 20.4845 12.266 20.1031 11.8846L13.2668 5.04827C13.2644 5.04591 13.262 5.04356 13.2597 5.04123C13.0841 4.86884 12.8437 4.76228 12.5784 4.7615C12.5774 4.7615 12.5764 4.7615 12.5754 4.7615C12.5745 4.7615 12.5735 4.7615 12.5725 4.7615C12.4411 4.76189 12.3159 4.78821 12.2016 4.83561C12.089 4.88219 11.9833 4.95073 11.8912 5.04123C11.8888 5.04353 11.8865 5.04584 11.8842 5.04817M5.04779 11.8846L11.8842 5.04817L5.04779 11.8846Z" fill="currentcolor"/>
+    </svg></div>
+    <div class="card-v1__inner">
+      <h3 class="title-5 color-white">Scale &amp; Performance</h3>
+      <div class="spacer-24 mobile-16"></div>
+      <p class="text-normal-18 mobile-16">In the right hands, low code can scale efficiently. We can help you identify the best architecture and structure to achieve optimum performance at scale.</p></div></div>
+      <div class="card-bg">
+        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eafe7_scale-and-perf-bg-static.avif" loading="lazy" alt="" class="card-bg__static"/>
+        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb056_scale-and-perf-bg-hover.avif" loading="lazy" alt="" class="card-bg__hover"/>
+        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb161_scale-mobile.avif" loading="lazy" alt="" class="card-bg__mobile"/></div></a></div>
+        <div rotate-on-hover="" data-grid-attr="grid-item-4" role="listitem" class="col-item services-item w-dyn-item">
+          <a stroke-gr="" href="/services/test-automation" class="card-v1 w-inline-block">
+            <div class="card-inner"><div class="arrow-34 services-item__arrow w-embed">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 25 25" fill="none" role="img">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.04779 11.8846C4.66636 12.266 4.66636 12.8844 5.04779 13.2658C5.42922 13.6473 6.04764 13.6473 6.42907 13.2658L11.5987 8.09621V19.4122C11.5987 19.9516 12.036 20.3889 12.5754 20.3889C13.1149 20.3889 13.5521 19.9516 13.5521 19.4122V8.09621L18.7218 13.2658C19.1032 13.6473 19.7216 13.6473 20.1031 13.2658C20.4845 12.8844 20.4845 12.266 20.1031 11.8846L13.2668 5.04827C13.2644 5.04591 13.262 5.04356 13.2597 5.04123C13.0841 4.86884 12.8437 4.76228 12.5784 4.7615C12.5774 4.7615 12.5764 4.7615 12.5754 4.7615C12.5745 4.7615 12.5735 4.7615 12.5725 4.7615C12.4411 4.76189 12.3159 4.78821 12.2016 4.83561C12.089 4.88219 11.9833 4.95073 11.8912 5.04123C11.8888 5.04353 11.8865 5.04584 11.8842 5.04817M5.04779 11.8846L11.8842 5.04817L5.04779 11.8846Z" fill="currentcolor"/>
+    </svg></div><div class="card-v1__inner">
+      <h3 class="title-5 color-white">Test Automation</h3>
+      <div class="spacer-24 mobile-16"></div><p class="text-normal-18 mobile-16">Reliable quality goes hand in hand with good test automation. A solid test automation strategy is key to delivering successful products.</p></div></div>
+      <div class="card-bg">
+        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb122_test-automation-bg-static.avif" loading="lazy" alt="" class="card-bg__static"/>
+      <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb00e_test-automation-bg-static.avif" loading="lazy" alt="" class="card-bg__hover"/>
+      <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb162_test-automation.avif" loading="lazy" alt="" class="card-bg__mobile"/></div></a></div>
+      <div rotate-on-hover="" data-grid-attr="grid-item-5" role="listitem" class="col-item services-item w-dyn-item">
+        <a stroke-gr="" href="https://ashishchaharkhorrdia.github.io/2/" class="card-v1 w-inline-block">
+          <div class="card-inner"><div class="arrow-34 services-item__arrow w-embed">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 25 25" fill="none" role="img">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.04779 11.8846C4.66636 12.266 4.66636 12.8844 5.04779 13.2658C5.42922 13.6473 6.04764 13.6473 6.42907 13.2658L11.5987 8.09621V19.4122C11.5987 19.9516 12.036 20.3889 12.5754 20.3889C13.1149 20.3889 13.5521 19.9516 13.5521 19.4122V8.09621L18.7218 13.2658C19.1032 13.6473 19.7216 13.6473 20.1031 13.2658C20.4845 12.8844 20.4845 12.266 20.1031 11.8846L13.2668 5.04827C13.2644 5.04591 13.262 5.04356 13.2597 5.04123C13.0841 4.86884 12.8437 4.76228 12.5784 4.7615C12.5774 4.7615 12.5764 4.7615 12.5754 4.7615C12.5745 4.7615 12.5735 4.7615 12.5725 4.7615C12.4411 4.76189 12.3159 4.78821 12.2016 4.83561C12.089 4.88219 11.9833 4.95073 11.8912 5.04123C11.8888 5.04353 11.8865 5.04584 11.8842 5.04817M5.04779 11.8846L11.8842 5.04817L5.04779 11.8846Z" fill="currentcolor"/>
+    </svg></div>
+    <div class="card-v1__inner"><h3 class="title-5 color-white">Custom Components</h3>
+      <div class="spacer-24 mobile-16"></div><p class="text-normal-18 mobile-16">Can build custom components for pixel perfect UI, custom integrations and more.</p></div></div>
+      <div class="card-bg"><img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb036_custom-components-bg-static.avif" loading="lazy" alt="" class="card-bg__static"/>
+        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb07d_custom-components-bg-hover.avif" loading="lazy" alt="" class="card-bg__hover"/>
+        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb163_custom-components.avif" loading="lazy" alt="" class="card-bg__mobile"/></div></a></div>
+        <div rotate-on-hover="" data-grid-attr="grid-item-6" role="listitem" class="col-item services-item w-dyn-item">
+          <a stroke-gr="" href="https://ashishchaharkhorrdia.github.io/2/" class="card-v1 w-inline-block">
+            <div class="card-inner"><div class="arrow-34 services-item__arrow w-embed">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 25 25" fill="none" role="img">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.04779 11.8846C4.66636 12.266 4.66636 12.8844 5.04779 13.2658C5.42922 13.6473 6.04764 13.6473 6.42907 13.2658L11.5987 8.09621V19.4122C11.5987 19.9516 12.036 20.3889 12.5754 20.3889C13.1149 20.3889 13.5521 19.9516 13.5521 19.4122V8.09621L18.7218 13.2658C19.1032 13.6473 19.7216 13.6473 20.1031 13.2658C20.4845 12.8844 20.4845 12.266 20.1031 11.8846L13.2668 5.04827C13.2644 5.04591 13.262 5.04356 13.2597 5.04123C13.0841 4.86884 12.8437 4.76228 12.5784 4.7615C12.5774 4.7615 12.5764 4.7615 12.5754 4.7615C12.5745 4.7615 12.5735 4.7615 12.5725 4.7615C12.4411 4.76189 12.3159 4.78821 12.2016 4.83561C12.089 4.88219 11.9833 4.95073 11.8912 5.04123C11.8888 5.04353 11.8865 5.04584 11.8842 5.04817M5.04779 11.8846L11.8842 5.04817L5.04779 11.8846Z" fill="currentcolor"/>
+    </svg></div>
+    <div class="card-v1__inner">
+      <h3 class="title-5 color-white">Full project support</h3>
+      <div class="spacer-24 mobile-16"></div>
+      <p class="text-normal-18 mobile-16">Have an idea but don&#x27;t know where to start? No problem! We provide full project support from ideation to delivery.</p></div></div>
+      <div class="card-bg"><img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb097_support-bg-static.svg" loading="lazy" alt="" class="card-bg__static"/>
+        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb0c3_support-bg-hover.svg" loading="lazy" alt="" class="card-bg__hover"/>
+        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb164_support.avif" loading="lazy" alt="" class="card-bg__mobile"/></div></a></div></div></div></div></div></div></section>
+        <section class="section split-text"><div class="page-padding"><div class="w-layout-blockcontainer container w-container">
+        <div class="wrap split-text-wrap"><div class="split-text__title is-static">Bring together technology and expertise</div>
+        <div split-text-animation="char" class="split-text__title is-absolute">Bring together technology and expertise</div></div></div></div></section>
+        <section class="section services-scroll"><div class="page-padding">
+        <div class="w-layout-blockcontainer container w-container">
+        <div class="wrap services-scroll-wrap">
+        <div id="servicesScrollSlider" init-mobile-pagination="" class="splide services-scroll-slider">
+        <div class="splide__track services-scroll-track w-dyn-list">
+        <div role="list" class="splide__list services-scroll-list w-dyn-items">
+        <div role="listitem" class="splide__slide services-scroll-slide w-dyn-item">
+        <article class="services-scroll-card">
+        <div class="services-scroll-card__left">
+        <div stroke-gr-4="" class="caption">
+        <div services-scroll-card-count="" class="text-normal-12">01</div></div>
+        <div class="spacer-32 mobile-12"></div>
+        <h2 class="title-4 v3">Web &amp; Mobile Development</h2>
+        <div class="spacer-24 mobile-16"></div>
+        <p class="text-normal-18">We leverage low-code platforms to build fast, scalable web and mobile applications tailored to your needs. Whether you&#x27;re starting fresh or enhancing an existing project, we help you accelerate development and integrate seamlessly into your digital landscape.</p></div>
+        <div style="background-image:url(&quot;https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb138_Web%20%26%20Mobile%20Development%20slide%201.avif&quot;)" class="card-v2"></div></article></div>
+        <div role="listitem" class="splide__slide services-scroll-slide w-dyn-item">
+        <article class="services-scroll-card"><div class="services-scroll-card__left">
+        <div stroke-gr-4="" class="caption"><div services-scroll-card-count="" class="text-normal-12">01</div></div>
+        <div class="spacer-32 mobile-12"></div><h2 class="title-4 v3">Scale operations efficiently</h2>
+        <div class="spacer-24 mobile-16"></div><p class="text-normal-18">We prioritize high-quality code that performs well at scale. By implementing best practices, optimizing performance, and integrating CI/CD pipelines and automated testing, we ensure your applications can handle increasing demands with reliability and speed.</p></div>
+        <div style="background-image:url(&quot;https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb139_Scale%20operations%20efficiently%20slide%202.avif&quot;)" class="card-v2"></div></article></div>
+        <div role="listitem" class="splide__slide services-scroll-slide w-dyn-item">
+        <article class="services-scroll-card">
+        <div class="services-scroll-card__left"><div stroke-gr-4="" class="caption">
+        <div services-scroll-card-count="" class="text-normal-12">01</div></div>
+        <div class="spacer-32 mobile-12"></div>
+        <h2 class="title-4 v3">Automate tasks</h2>
+        <div class="spacer-24 mobile-16"></div>
+        <p class="text-normal-18">Automated testing is critical for protecting your investment in custom software. We can help you build a solid test automation strategy to ensure your application is always running smoothly.</p></div>
+        <div style="background-image:url(&quot;https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb13a_Automate%20tasks%20slide%203.avif&quot;)" class="card-v2"></div></article></div></div></div>
+        <div services-scroll-arrows="" class="slider-arrows in-services-scroll">
+        <button type="button" aria-label="prev slide" stroke-primary-btn-gr="" class="slider-arrow slider-prev-btn">
+        <div class="arrow-28 w-embed">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 28 28" fill="none" role="img">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1747 22.9918C13.6303 23.4474 14.369 23.4474 14.8246 22.9918C15.2802 22.5362 15.2802 21.7975 14.8246 21.3419L8.64959 15.1668L22.1663 15.1668C22.8107 15.1668 23.333 14.6445 23.333 14.0002C23.333 13.3558 22.8107 12.8335 22.1663 12.8335L8.64959 12.8335L14.8246 6.65845C15.2802 6.20284 15.2802 5.46415 14.8246 5.00854C14.369 4.55293 13.6303 4.55293 13.1747 5.00854L5.00888 13.1744C5.00606 13.1772 5.00326 13.18 5.00047 13.1829C4.79456 13.3926 4.66728 13.6798 4.66635 13.9967C4.66634 13.9978 4.66634 13.999 4.66634 14.0002C4.66634 14.0013 4.66634 14.0025 4.66635 14.0037C4.66681 14.1606 4.69825 14.3102 4.75487 14.4467C4.81051 14.5812 4.89237 14.7074 5.00047 14.8175C5.00322 14.8203 5.00599 14.8231 5.00877 14.8258M13.1747 22.9918L5.00877 14.8258L13.1747 22.9918Z" fill="currentcolor"/>
+    </svg></div></button>
+    <button type="button" aria-label="next slide" stroke-primary-btn-gr="" class="slider-arrow slider-next-btn">
+      <div class="arrow-28 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 28 28" fill="none" role="img">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8253 22.9918C14.3697 23.4474 13.631 23.4474 13.1754 22.9918C12.7198 22.5362 12.7198 21.7975 13.1754 21.3419L19.3504 15.1668L5.83366 15.1668C5.18933 15.1668 4.66699 14.6445 4.66699 14.0002C4.66699 13.3558 5.18933 12.8335 5.83366 12.8335L19.3504 12.8335L13.1754 6.65845C12.7198 6.20284 12.7198 5.46415 13.1754 5.00854C13.631 4.55293 14.3697 4.55293 14.8253 5.00854L22.9911 13.1744C22.9939 13.1772 22.9967 13.18 22.9995 13.1829C23.2054 13.3926 23.3327 13.6798 23.3337 13.9967C23.3337 13.9978 23.3337 13.999 23.3337 14.0002C23.3337 14.0013 23.3337 14.0025 23.3337 14.0037C23.3332 14.1606 23.3018 14.3102 23.2451 14.4467C23.1895 14.5812 23.1076 14.7074 22.9995 14.8175C22.9968 14.8203 22.994 14.8231 22.9912 14.8258M14.8253 22.9918L22.9912 14.8258L14.8253 22.9918Z" fill="currentcolor"/>
+    </svg></div></button></div></div></div></div></div></section>
+    <section class="section industries">
+      <div class="page-padding">
+        <div class="w-layout-blockcontainer container w-container">
+          <div class="wrap industries-wrap">
+            <div class="heading industries-heading">
+              <div class="industries-heading__left">
+                <div stroke-gr-4="" class="caption">
+                  <div class="text-normal-12">Industries</div></div>
+                  <div class="spacer-32 mobile-12"></div>
+                  <h2 slide-up-text-anim-once="" class="title-3">Low-Code technologies for streamlined business processes</h2></div>
+                  <div industries-scroll-arrows="" class="slider-arrows in-industries"><button type="button" aria-label="prev slide" stroke-primary-btn-gr="" class="slider-arrow slider-prev-btn">
+                    <div class="arrow-28 w-embed">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 28 28" fill="none" role="img">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1747 22.9918C13.6303 23.4474 14.369 23.4474 14.8246 22.9918C15.2802 22.5362 15.2802 21.7975 14.8246 21.3419L8.64959 15.1668L22.1663 15.1668C22.8107 15.1668 23.333 14.6445 23.333 14.0002C23.333 13.3558 22.8107 12.8335 22.1663 12.8335L8.64959 12.8335L14.8246 6.65845C15.2802 6.20284 15.2802 5.46415 14.8246 5.00854C14.369 4.55293 13.6303 4.55293 13.1747 5.00854L5.00888 13.1744C5.00606 13.1772 5.00326 13.18 5.00047 13.1829C4.79456 13.3926 4.66728 13.6798 4.66635 13.9967C4.66634 13.9978 4.66634 13.999 4.66634 14.0002C4.66634 14.0013 4.66634 14.0025 4.66635 14.0037C4.66681 14.1606 4.69825 14.3102 4.75487 14.4467C4.81051 14.5812 4.89237 14.7074 5.00047 14.8175C5.00322 14.8203 5.00599 14.8231 5.00877 14.8258M13.1747 22.9918L5.00877 14.8258L13.1747 22.9918Z" fill="currentcolor"/>
+    </svg></div></button>
+    <button type="button" aria-label="next slide" stroke-primary-btn-gr="" class="slider-arrow slider-next-btn">
+      <div class="arrow-28 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 28 28" fill="none" role="img">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8253 22.9918C14.3697 23.4474 13.631 23.4474 13.1754 22.9918C12.7198 22.5362 12.7198 21.7975 13.1754 21.3419L19.3504 15.1668L5.83366 15.1668C5.18933 15.1668 4.66699 14.6445 4.66699 14.0002C4.66699 13.3558 5.18933 12.8335 5.83366 12.8335L19.3504 12.8335L13.1754 6.65845C12.7198 6.20284 12.7198 5.46415 13.1754 5.00854C13.631 4.55293 14.3697 4.55293 14.8253 5.00854L22.9911 13.1744C22.9939 13.1772 22.9967 13.18 22.9995 13.1829C23.2054 13.3926 23.3327 13.6798 23.3337 13.9967C23.3337 13.9978 23.3337 13.999 23.3337 14.0002C23.3337 14.0013 23.3337 14.0025 23.3337 14.0037C23.3332 14.1606 23.3018 14.3102 23.2451 14.4467C23.1895 14.5812 23.1076 14.7074 22.9995 14.8175C22.9968 14.8203 22.994 14.8231 22.9912 14.8258M14.8253 22.9918L22.9912 14.8258L14.8253 22.9918Z" fill="currentcolor"/>
+    </svg></div></button></div></div>
+    <div class="spacer-86 mobile-44"></div>
+    <div id="industriesSlider" class="splide industries-slider">
+      <div class="splide__track industries-track w-dyn-list">
+        <div role="list" class="splide__list industries-list w-dyn-items">
+          <div role="listitem" class="splide__slide industries-slide w-dyn-item">
+    <article card-dropdown="" stroke-gr="" class="card-v3">
+              <div card-dropdown-toggle="" class="card-v3-inner">
+                <div class="icon-80 mobile-58">
+                  <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb123_Fintech-static.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-static"/>
+                  <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb124_Fintech-hover.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-hover"/></div>
+                  <div class="spacer-20 mobile-10"></div><h3 class="title-5 v2">Fintech</h3></div>
+                  <div card-dropdown-list="" class="card-v3-text-container">
+                    <div class="card-v3-text-wrap">
+                      <p class="text-normal-18 mobile-16">Low-code solutions empower fintech companies to build secure, scalable applications for payment processing and compliance. They quickly adapt to regulatory changes, providing seamless user experiences and strong data security without sacrificing development speed.</p></div></div>
+                      <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0cf_Ellipse%2067567762.svg" loading="lazy" alt="" class="card-gr card-gr-top"/>
+                      <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0d0_Ellipse%209789763.svg" loading="lazy" width="402" height="143" alt="" class="card-gr card-gr-bottom"/></article></div>
+                      <div role="listitem" class="splide__slide industries-slide w-dyn-item"><article card-dropdown="" stroke-gr="" class="card-v3"><div card-dropdown-toggle="" class="card-v3-inner">
+                        <div class="icon-80 mobile-58">
+                          <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb125_Healthcare-static.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-static"/>
+                          <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb126_Healthcare-hover.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-hover"/></div>
+                          <div class="spacer-20 mobile-10"></div><h3 class="title-5 v2">Healthcare</h3></div>
+                          <div card-dropdown-list="" class="card-v3-text-container">
+                            <div class="card-v3-text-wrap">
+                              <p class="text-normal-18 mobile-16">Low-code solutions in healthcare offer secure software for managing patient data, improving workflows, and ensuring regulatory compliance while adapting to the industry&#x27;s evolving needs.</p></div></div>
+                              <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0cf_Ellipse%2067567762.svg" loading="lazy" alt="" class="card-gr card-gr-top"/>
+                              <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0d0_Ellipse%209789763.svg" loading="lazy" width="402" height="143" alt="" class="card-gr card-gr-bottom"/></article></div>
+                              <div role="listitem" class="splide__slide industries-slide w-dyn-item">
+                                <article card-dropdown="" stroke-gr="" class="card-v3">
+                                  <div card-dropdown-toggle="" class="card-v3-inner">
+                                    <div class="icon-80 mobile-58">
+                                      <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb127_Manufacturing-static.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-static"/>
+                                      <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb128_Manufacturing-hover.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-hover"/></div>
+                                      <div class="spacer-20 mobile-10"></div><h3 class="title-5 v2">Manufacturing</h3></div>
+                                      <div card-dropdown-list="" class="card-v3-text-container"><div class="card-v3-text-wrap">
+                                        <p class="text-normal-18 mobile-16">Low-code solutions in manufacturing enhance efficiency by optimizing workflows, tracking inventory, and improving maintenance, helping manufacturers reduce downtime and respond faster to market changes.</p></div></div>
+                                        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0cf_Ellipse%2067567762.svg" loading="lazy" alt="" class="card-gr card-gr-top"/>
+                                        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0d0_Ellipse%209789763.svg" loading="lazy" width="402" height="143" alt="" class="card-gr card-gr-bottom"/></article></div>
+                                        <div role="listitem" class="splide__slide industries-slide w-dyn-item">
+                                          <article card-dropdown="" stroke-gr="" class="card-v3">
+                                            <div card-dropdown-toggle="" class="card-v3-inner">
+                                              <div class="icon-80 mobile-58">
+                                                <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb129_Government%20%26%20Defense-static.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-static"/>
+                                                <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb12a_Government%20%26%20Defense-hover.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-hover"/></div>
+                                                <div class="spacer-20 mobile-10"></div>
+                                                <h3 class="title-5 v2">Government &amp; Defense</h3></div>
+                                                <div card-dropdown-list="" class="card-v3-text-container">
+                                                  <div class="card-v3-text-wrap">
+                                                    <p class="text-normal-18 mobile-16">Low-code platforms enable Government and Defense sectors to quickly build secure, mission-critical applications, ensuring compliance and boosting efficiency while supporting national security with adaptable software.</p></div></div>
+                                                    <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0cf_Ellipse%2067567762.svg" loading="lazy" alt="" class="card-gr card-gr-top"/>
+                                                    <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0d0_Ellipse%209789763.svg" loading="lazy" width="402" height="143" alt="" class="card-gr card-gr-bottom"/></article></div>
+                                                    <div role="listitem" class="splide__slide industries-slide w-dyn-item">
+                                                      <article card-dropdown="" stroke-gr="" class="card-v3">
+                                                        <div card-dropdown-toggle="" class="card-v3-inner">
+                                                          <div class="icon-80 mobile-58">
+                                                            <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb12b_Real%20Estate-static.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-static"/>
+                                                            <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb12c_Real%20Estate-hover.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-hover"/></div>
+                                                            <div class="spacer-20 mobile-10"></div>
+                                                            <h3 class="title-5 v2">Real Estate</h3></div>
+                                                            <div card-dropdown-list="" class="card-v3-text-container">
+                                                              <div class="card-v3-text-wrap">
+                                                                <p class="text-normal-18 mobile-16">Low-code solutions help real estate professionals manage listings, streamline transactions, and improve client communication, boosting efficiency and enhancing customer experience in a competitive market.</p></div></div>
+                                                                <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0cf_Ellipse%2067567762.svg" loading="lazy" alt="" class="card-gr card-gr-top"/>
+                                                                <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0d0_Ellipse%209789763.svg" loading="lazy" width="402" height="143" alt="" class="card-gr card-gr-bottom"/></article></div>
+                                                                <div role="listitem" class="splide__slide industries-slide w-dyn-item">
+                                                                  <article card-dropdown="" stroke-gr="" class="card-v3">
+                                                                    <div card-dropdown-toggle="" class="card-v3-inner">
+                                                                      <div class="icon-80 mobile-58">
+                                                                        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb13b_Education-static.avif" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-static"/>
+                                                                        <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb12d_Education-hover.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-hover"/></div>
+                                                                        <div class="spacer-20 mobile-10"></div><h3 class="title-5 v2">Education</h3></div>
+                                                                        <div card-dropdown-list="" class="card-v3-text-container">
+                                                                          <div class="card-v3-text-wrap">
+                                                                            <p class="text-normal-18 mobile-16">The educational sector is ripe for automation and services that enable both students and admins. Custom apps for student management, e-learning, admin, and improving efficiency are solutions we can bring to the table quickly.</p></div></div>
+                                                                            <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0cf_Ellipse%2067567762.svg" loading="lazy" alt="" class="card-gr card-gr-top"/>
+                                                                            <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0d0_Ellipse%209789763.svg" loading="lazy" width="402" height="143" alt="" class="card-gr card-gr-bottom"/></article></div>
+                                                                            <div role="listitem" class="splide__slide industries-slide w-dyn-item"><article card-dropdown="" stroke-gr="" class="card-v3">
+                                                                              <div card-dropdown-toggle="" class="card-v3-inner">
+                                                                                <div class="icon-80 mobile-58">
+                                                                                  <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb12e_Supply%20Chain-static.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-static"/>
+                                                                                  <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/672799259500d2477d1eb12f_Supply%20Chain-hover.svg" loading="lazy" width="80" height="80" alt="" class="industries-slide__icon-hover"/></div>
+                                                                                  <div class="spacer-20 mobile-10"></div>
+                                                                                  <h3 class="title-5 v2">Supply Chain</h3></div>
+                                                                                  <div card-dropdown-list="" class="card-v3-text-container">
+                                                                                    <div class="card-v3-text-wrap">
+                                                                                      <p class="text-normal-18 mobile-16">There&#x27;s often no off the shelf product that fits your supply chain correctly. Using a low code solution enables you to have a platform that fits your company, which can provide visibility, tracking, and integrations you need.</p></div></div>
+                                                                                      <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0cf_Ellipse%2067567762.svg" loading="lazy" alt="" class="card-gr card-gr-top"/>
+                                                                                      <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0d0_Ellipse%209789763.svg" loading="lazy" width="402" height="143" alt="" class="card-gr card-gr-bottom"/></article></div></div></div></div></div></div></div></section>
+                                                                                      <section class="section testimonials">
+                                                                                        <div class="page-padding">
+                                                                                          <div class="w-layout-blockcontainer container w-container">
+                                                                                            <div class="wrap testimonials-wrap"><div stroke-gr-4="" class="caption"><div class="text-normal-12">Testimonials</div></div>
+                                                                                            <div class="spacer-86 mobile-32"></div><div id="testimonialSlider" init-mobile-pagination="" class="splide testimonials-slider">
+                                                                                              <div class="splide__track testimonials-track w-dyn-list">
+                                                                                                <div role="list" class="splide__list testimonials-list w-dyn-items">
+                                                                                                  <div role="listitem" class="splide__slide testimonials-slide w-dyn-item">
+                                                                                                    <div class="testimonials-item">
+                                                                                                      <img src="pro.jpg" loading="lazy" width="78" height="78" alt="Derek Shulz," stroke-primary-btn-gr="" class="testimonials-item__img"/>
+                                                                                                      <div class="spacer-32 mobile-20"></div>
+                                                                                                      <div text-1-gr="" class="testimonials-item__text w-richtext">
+                                                                                                        <p>I highly recommend Ashish Chahar to any organization looking for top-notch Mendix programming expertise.</p></div>
+                                                                                                        <div class="spacer-32 mobile-20"></div>
+                                                                                                        <div class="testimonials-item-row">
+                                                                                                          <div class="text-normal-18">Ashish Chahar,</div>
+                                                                                                          <div class="text-normal-18">CIO Tectonic Guru</div></div></div></div>
+                                                                                                          <!-- <div role="listitem" class="splide__slide testimonials-slide w-dyn-item">
+                                                                                                            <div class="testimonials-item">
+                                                                                                              <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafc5/67336161b4cc8efc7de2b933_1528820786698.jpg" loading="lazy" width="78" height="78" alt="Anna Haynes," stroke-primary-btn-gr="" class="testimonials-item__img"/>
+                                                                                                              <div class="spacer-32 mobile-20"></div>
+                                                                                                              <div text-1-gr="" class="testimonials-item__text w-richtext">
+                                                                                                                <p>Working with Paradigm as a hybrid team has been seamless; their flexibility and excellent communication make them an invaluable partner</p></div>
+                                                                                                                <div class="spacer-32 mobile-20"></div>
+                                                                                                                <div class="testimonials-item-row">
+                                                                                                                  <div class="text-normal-18">Anna Haynes,</div>
+                                                                                                                  <div class="text-normal-18">Director of Project Management</div></div></div></div></div></div> -->
+                                                                                                                  <div testimonial-arrows="" class="slider-arrows in-testimonials">
+                                                                                                                    <button type="button" aria-label="prev slide" stroke-primary-btn-gr="" class="slider-arrow slider-prev-btn">
+                                                                                                                      <div class="arrow-28 w-embed">
+                                                                                                                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 28 28" fill="none" role="img">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1747 22.9918C13.6303 23.4474 14.369 23.4474 14.8246 22.9918C15.2802 22.5362 15.2802 21.7975 14.8246 21.3419L8.64959 15.1668L22.1663 15.1668C22.8107 15.1668 23.333 14.6445 23.333 14.0002C23.333 13.3558 22.8107 12.8335 22.1663 12.8335L8.64959 12.8335L14.8246 6.65845C15.2802 6.20284 15.2802 5.46415 14.8246 5.00854C14.369 4.55293 13.6303 4.55293 13.1747 5.00854L5.00888 13.1744C5.00606 13.1772 5.00326 13.18 5.00047 13.1829C4.79456 13.3926 4.66728 13.6798 4.66635 13.9967C4.66634 13.9978 4.66634 13.999 4.66634 14.0002C4.66634 14.0013 4.66634 14.0025 4.66635 14.0037C4.66681 14.1606 4.69825 14.3102 4.75487 14.4467C4.81051 14.5812 4.89237 14.7074 5.00047 14.8175C5.00322 14.8203 5.00599 14.8231 5.00877 14.8258M13.1747 22.9918L5.00877 14.8258L13.1747 22.9918Z" fill="currentcolor"/>
+    </svg></div></button>
+    <button type="button" aria-label="next slide" stroke-primary-btn-gr="" class="slider-arrow slider-next-btn">
+      <div class="arrow-28 w-embed">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 28 28" fill="none" role="img">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8253 22.9918C14.3697 23.4474 13.631 23.4474 13.1754 22.9918C12.7198 22.5362 12.7198 21.7975 13.1754 21.3419L19.3504 15.1668L5.83366 15.1668C5.18933 15.1668 4.66699 14.6445 4.66699 14.0002C4.66699 13.3558 5.18933 12.8335 5.83366 12.8335L19.3504 12.8335L13.1754 6.65845C12.7198 6.20284 12.7198 5.46415 13.1754 5.00854C13.631 4.55293 14.3697 4.55293 14.8253 5.00854L22.9911 13.1744C22.9939 13.1772 22.9967 13.18 22.9995 13.1829C23.2054 13.3926 23.3327 13.6798 23.3337 13.9967C23.3337 13.9978 23.3337 13.999 23.3337 14.0002C23.3337 14.0013 23.3337 14.0025 23.3337 14.0037C23.3332 14.1606 23.3018 14.3102 23.2451 14.4467C23.1895 14.5812 23.1076 14.7074 22.9995 14.8175C22.9968 14.8203 22.994 14.8231 22.9912 14.8258M14.8253 22.9918L22.9912 14.8258L14.8253 22.9918Z" fill="currentcolor"/>
+    </svg></div></button></div>
+    <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0c4_Ellipse%20763.svg" loading="lazy" fade-in-animation="" alt="" class="testimonials-slider__blur"/></div></div></div></div></section>
+    <section class="section faq"><div class="page-padding">
+      <div class="w-layout-blockcontainer container w-container">
+        <div class="wrap faq-wrap"><div class="heading faq-heading">
+          <div stroke-gr-4="" class="caption">
+            <div class="text-normal-12">Get answers to questions</div></div>
+          <div class="spacer-32 mobile-12"></div>
+          <h2 slide-up-text-anim-once="" class="title-3">FAQ</h2></div>
+          <div class="spacer-86 mobile-44"></div>
+          <div class="faq-col-wrap w-dyn-list">
+            <div role="list" class="faq-col-list w-dyn-items">
+              <div role="listitem" class="faq-col-item w-dyn-item">
+                <div data-hover="false" data-delay="0" data-w-id="3fdf817c-00ca-37f4-548a-67d9c5348916" class="faq-dropdown w-dropdown">
+                  <div stroke-gr-5="" class="card-v4 faq-dropdown-toggle w-dropdown-toggle">
+                    <div class="faq-dropdown-toggle__heading"><div class="title-5 color-white">What is low-code development?</div>
+                    <div dropdown-arrow="" class="arrow-36 faq-dropdown-arrow w-embed">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 36 36" fill="none" role="img">
+      <path d="M9.00019 14.3999L17.1002 21.5999L25.2002 14.3999" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg></div></div>
+    <div class="faq-dropdown-list">
+      <div class="faq-dropdown-text w-richtext">
+        <p>Low-code development uses visual tools and pre-built components to rapidly create applications with minimal manual coding. It enables both developers and non-technical users to build apps faster, streamlining the entire development process.</p></div></div></div></div></div>
+        <div role="listitem" class="faq-col-item w-dyn-item">
+          <div data-hover="false" data-delay="0" data-w-id="3fdf817c-00ca-37f4-548a-67d9c5348916" class="faq-dropdown w-dropdown">
+            <div stroke-gr-5="" class="card-v4 faq-dropdown-toggle w-dropdown-toggle">
+              <div class="faq-dropdown-toggle__heading">
+                <div class="title-5 color-white">How does low-code benefit my business?</div>
+                <div dropdown-arrow="" class="arrow-36 faq-dropdown-arrow w-embed">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 36 36" fill="none" role="img">
+      <path d="M9.00019 14.3999L17.1002 21.5999L25.2002 14.3999" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg></div></div>
+    <div class="faq-dropdown-list">
+      <div class="faq-dropdown-text w-richtext">
+        <p>Low-code allows for faster development, lower costs, and more agility in adapting to business needs. It enhances collaboration between IT and business teams, reduces reliance on specialized developers, and delivers scalable, secure solutions.</p></div></div></div></div></div>
+        <div role="listitem" class="faq-col-item w-dyn-item">
+          <div data-hover="false" data-delay="0" data-w-id="3fdf817c-00ca-37f4-548a-67d9c5348916" class="faq-dropdown w-dropdown">
+            <div stroke-gr-5="" class="card-v4 faq-dropdown-toggle w-dropdown-toggle">
+              <div class="faq-dropdown-toggle__heading"><div class="title-5 color-white">Can low-code handle complex, large-scale applications?</div>
+              <div dropdown-arrow="" class="arrow-36 faq-dropdown-arrow w-embed">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 36 36" fill="none" role="img">
+      <path d="M9.00019 14.3999L17.1002 21.5999L25.2002 14.3999" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg></div></div>
+    <div class="faq-dropdown-list">
+      <div class="faq-dropdown-text w-richtext">
+        <p>Absolutely. In the right hands, Low-code platforms like Mendix can be used to create large enterprise systems. With the ability to scale, integrate with existing technologies, and handle complex workflows, low-code can be a robust solution for growing businesses.</p></div></div></div></div></div>
+        <div role="listitem" class="faq-col-item w-dyn-item">
+          <div data-hover="false" data-delay="0" data-w-id="3fdf817c-00ca-37f4-548a-67d9c5348916" class="faq-dropdown w-dropdown">
+            <div stroke-gr-5="" class="card-v4 faq-dropdown-toggle w-dropdown-toggle">
+              <div class="faq-dropdown-toggle__heading">
+                <div class="title-5 color-white">Are there any limitations of low-code?</div>
+                <div dropdown-arrow="" class="arrow-36 faq-dropdown-arrow w-embed">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 36 36" fill="none" role="img">
+      <path d="M9.00019 14.3999L17.1002 21.5999L25.2002 14.3999" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg></div></div>
+    <div class="faq-dropdown-list">
+      <div class="faq-dropdown-text w-richtext">
+        <p>Yes, we firmly believe that low-code is not a magic bullet and  always advocate using the right tool for the job. In addition to our low-code expertise we often extend or fill in gaps with traditional coding to create a holistic solution that solves the problem.</p></div></div></div></div></div>
+        <div role="listitem" class="faq-col-item w-dyn-item">
+          <div data-hover="false" data-delay="0" data-w-id="3fdf817c-00ca-37f4-548a-67d9c5348916" class="faq-dropdown w-dropdown">
+            <div stroke-gr-5="" class="card-v4 faq-dropdown-toggle w-dropdown-toggle">
+              <div class="faq-dropdown-toggle__heading">
+                <div class="title-5 color-white">Can low-code integrate with my existing systems?</div>
+                <div dropdown-arrow="" class="arrow-36 faq-dropdown-arrow w-embed">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 36 36" fill="none" role="img">
+      <path d="M9.00019 14.3999L17.1002 21.5999L25.2002 14.3999" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg></div></div>
+    <div class="faq-dropdown-list">
+      <div class="faq-dropdown-text w-richtext">
+        <p>Yes, low-code platforms can easily integrate with existing software systems, APIs, and databases, ensuring a smooth transition and connectivity between your current and new applications.</p></div></div></div></div></div></div></div></div></div></div></section>
+        <section class="section contact">
+          <div class="page-padding">
+          <div class="w-layout-blockcontainer container w-container">
+            <div class="wrap contact-wrap">
+              <div class="contact-left">
+                <div fade-in-animation="" class="contact-blur-top-wrap">
+                  <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0c8_Ellipse%2072362.svg" loading="lazy" alt="" class="contact-blur-top"/></div>
+                  <div fade-in-animation="" class="contact-blur-bottom-wrap">
+                    <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb0c7_Ellipse%2072363.svg" loading="lazy" alt="" class="contact-blur-bottom"/></div>
+                    <div class="contact-heading"><h2 text-1-gr="" class="title-3">Don&#x27;t be shy,<br/>just say hi.</h2>
+                      <a href="#" class="text-link-2 w-inline-block">
+                        <!-- mailto:hello@paradigm-solutions.io -->
+                        <div class="icon-20 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 20 20" fill="none" role="img">
+      <path d="M16.72 7.08447L17.0157 6.89967H16.667H3.33366H2.98498L3.28066 7.08447L9.94733 11.2511L10.0003 11.2843L10.0533 11.2511L16.72 7.08447ZM16.667 17.0997H16.767V16.9997V8.66634V8.48592L16.614 8.58154L10.0003 12.7151L3.38666 8.58154L3.23366 8.48592V8.66634V16.9997V17.0997H3.33366H16.667ZM16.667 5.43301C17.5284 5.43301 18.2337 6.13824 18.2337 6.99967V16.9997C18.2337 17.8611 17.5284 18.5663 16.667 18.5663H3.33366C2.47222 18.5663 1.76699 17.8611 1.76699 16.9997V6.99967C1.76699 6.13824 2.47222 5.43301 3.33366 5.43301H16.667Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.2"/>
+    </svg></div>
+    <div class="text-normal-16">hello@Ashish Chahar</div></a></div></div>
+    <div id="form-box" class="form-block w-form">
+
+   
+    <div class="success-msg w-form-done"><div class="success-msg-inner"><div class="contact-heading"><h2 text-1-gr="" class="title-2">Message in, <br/>reply out!</h2><div class="text-normal-16">You will have a reply within <br/>two business days.</div></div></div></div><div class="error-msg w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div><div id="contact-form" class="anchor in-contact"></div><div class="phone-validation w-embed w-script">
+  
+    </div></section></main>
+
+    <footer class="footer">
+      
+      <div class="page-padding">
+      <div class="w-layout-blockcontainer container w-container">
+        <div class="footer-wrap"><div id="w-node-ba16ff48-1546-10e4-b195-2f8200cd4508-00cd4504" class="footer-col is-first">
+          <a href="#" aria-label="paradigm logo" id="w-node-ba16ff48-1546-10e4-b195-2f8200cd4509-00cd4504" aria-current="page" class="logo in-footer w-nav-brand w--current">
+            <img width="148" height="54" alt="paradigm" src="pro.jpg" loading="lazy" data-logo="main" class="logo__img"/></a>
+            <a id="footer-city-instagram" aria-label="instagram" stroke-primary-btn-gr="" href="https://www.linkedin.com/company/paradigm-dev" target="_blank" class="social-link w-inline-block">
+              <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb047_in.svg" loading="lazy" width="20" height="20" alt="linkedin" class="social-link__icon"/>
+              <img src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/672799259500d2477d1eb048_in-gr.svg" loading="lazy" width="20" height="20" alt="linkedin" class="social-link__icon-gr"/></a></div>
+              <div class="footer-col"><div class="text-normal-14">Services</div>
+              <div class="w-dyn-list"><div role="list" class="footer-list nav-list w-dyn-items">
+                <div role="listitem" class="w-dyn-item"><a href="#" class="text-link">Low code</a></div>
+                <div role="listitem" class="w-dyn-item"><a href="#" class="text-link">Web &amp; Mobile</a></div>
+                <div role="listitem" class="w-dyn-item"><a href="#" class="text-link">Scale &amp; Performance</a></div>
+                <div role="listitem" class="w-dyn-item"><a href="#" class="text-link">Custom Components</a></div><div role="listitem" class="w-dyn-item">
+                  <a href="#" class="text-link">Full project support</a></div>
+                  <div role="listitem" class="w-dyn-item"><a href="#" class="text-link">Test Automation</a></div></div></div></div>
+                  <div id="w-node-ba16ff48-1546-10e4-b195-2f8200cd4518-00cd4504" class="footer-col">
+                    <div class="text-normal-14">Info</div><ul role="list" class="footer-list">
+                      <li class="footer-list__item"><a href="#" class="text-link">About us</a></li>
+                      <li class="footer-list__item"><a href="#" class="text-link">Contact us</a></li>
+                    </ul></div></div></div></div>
+                  
+                  </footer><div class="fixed-video"
+                    ><video src="https://www.dropbox.com/scl/fi/9vibswqsgvnt59zrzqzmo/guitar-musician-musical-instrument-guitarist-music-instrument-guitar-9619-full-1.mp4?rlkey=dges7fohfkhmjxems02fg61u0&amp;st=5pfxkyqg&amp;raw=1" playsinline="true" muted="" loop="" autoplay="true" class="video"></video>
+                    <button type="button" aria-label="muted" class="video-muted in-home"><div class="video-muted__icon w-embed"><svg width="100%" height="100%" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1025 7.10252C13.208 6.99718 13.3509 6.93801 13.5 6.93801C13.6491 6.93801 13.792 6.99718 13.8975 7.10252L15 8.20502L16.1025 7.10252C16.2091 7.00316 16.3502 6.94907 16.4959 6.95164C16.6416 6.95421 16.7807 7.01324 16.8837 7.1163C16.9868 7.21936 17.0458 7.3584 17.0484 7.50413C17.051 7.64985 16.9969 7.79089 16.8975 7.89752L15.7958 9.00002L16.8983 10.1025C17.0007 10.2087 17.0573 10.3508 17.0559 10.4983C17.0546 10.6457 16.9954 10.7868 16.891 10.891C16.7867 10.9953 16.6456 11.0544 16.4981 11.0556C16.3506 11.0568 16.2085 11 16.1025 10.8975L15 9.79502L13.8975 10.8975C13.7909 10.9969 13.6498 11.051 13.5041 11.0484C13.3584 11.0458 13.2193 10.9868 13.1163 10.8837C13.0132 10.7807 12.9542 10.6416 12.9516 10.4959C12.949 10.3502 13.0031 10.2091 13.1025 10.1025L14.205 9.00002L13.1025 7.89752C12.9972 7.79205 12.938 7.64908 12.938 7.50002C12.938 7.35096 12.9972 7.20799 13.1025 7.10252ZM9.77775 2.54702C10.65 1.97177 11.8125 2.59802 11.8125 3.64277V14.3573C11.8125 15.4028 10.65 16.0283 9.77775 15.453L5.27775 12.4868C5.24731 12.4665 5.21159 12.4555 5.175 12.4553H3C2.45299 12.4553 1.92839 12.238 1.54159 11.8512C1.1548 11.4644 0.9375 10.9398 0.9375 10.3928V7.60727C0.9375 7.06026 1.1548 6.53565 1.54159 6.14886C1.92839 5.76207 2.45299 5.54477 3 5.54477H5.175C5.21177 5.54489 5.24776 5.53419 5.2785 5.51402L9.77775 2.54702Z" fill="currentcolor" />
+    </svg></div></button>
+    <button type="button" aria-label="close video" class="video-close">
+      <div class="icon-14 w-embed"><svg width="100%" height="100%" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+      <path d="M10.5 3.5L3.5 10.5" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3.5 3.5L10.5 10.5" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg></div></button></div></div><div fs-cc="banner" class="cookie"><p class="text-normal-14">Chahar uses cookies to provide you with a great user experience, but requires your consent. You can also view our <a href="/cancellation-policy" class="cookie-link">Cookie Policy</a>.</p><div class="cookie-row"><a fs-cc="deny" href="#" class="text-normal-16 cookie-link">Reject all</a><a fs-cc="allow" stroke-gr-8="" href="#" class="btn btn-secondary in-cookie w-inline-block"><div>Accept all</div></a></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=672799259500d2477d1eafa5" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/js/webflow.5bbf49226.js" type="text/javascript"></script><script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    
+    <!-- Java file-->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // CLOSE VIDEO
+        const video = $('.video')[0];
+        const videoCloseButton = $('.video-close');
+        const fixedVideo = $('.fixed-video');
+    
+        if (video && videoCloseButton.length && fixedVideo.length) {
+          videoCloseButton.click(function () {
+            fixedVideo.fadeOut();
+            video.pause();
+          });
+        }
+    
+        // MUTED VIDEO
+        const muteButton = $('.video-muted');
+        const muteButtonIcon = $('.video-muted__icon');
+    
+        if (video && muteButton.length && muteButtonIcon.length) {
+          video.muted = true;
+    
+          muteButton.on('click', function () {
+            video.muted = !video.muted;
+    
+            muteButtonIcon.css('visibility', video.muted ? 'visible' : 'hidden');
+          });
+        }
+    
+        // HERO START ANIMATION
+        function initHeroAnimation() {
+          let widthValue = '102%';
+    
+          const tl = gsap.timeline();
+    
+          tl.to('.hero-border-wrap', {
+            opacity: 1,
+            width: widthValue,
+            duration: 1.5,
+          });
+          tl.to('[hero-content]', {
+            opacity: 1,
+            duration: 2.5,
+          }, '<15%');
+        }
+        initHeroAnimation();
+    
+        // MARQUEE
+        function initMarquee(el) {
+          const marqueeEl = document.querySelector(el);
+    
+          if (!marqueeEl) return;
+    
+          const marqueeTrack = marqueeEl.querySelector('.marquee-track');
+          if (!marqueeTrack) return;
+    
+          const marqueeContent = marqueeTrack.querySelectorAll('.marquee-content');
+    
+          marqueeContent.forEach((item) => {
+            const itemWidth = item.offsetWidth;
+            const clone = item.cloneNode(true);
+            item.appendChild(clone);
+    
+            gsap.to(item, {
+              x: -itemWidth,
+              duration: 25,
+              ease: 'linear',
+              repeat: -1,
+              modifiers: {
+                x: function (x) {
+                  return (parseFloat(x) % itemWidth) + 'px';
+                },
+              },
+            });
+          });
+        }
+        initMarquee('.marquee');
+    
+        // SPLIT TEXT ANIMATION
+        let typeSplit = new SplitType('[split-text-animation]', {
+          types: 'words, chars',
+          tagName: 'span',
+        });
+    
+        let timeline_1 = gsap.timeline();
+        timeline_1.from('[split-text-animation] .char', {
+          scrollTrigger: {
+            trigger: '[split-text-animation]',
+            start: 'top 80%',
+            end: 'bottom 75%',
+            scrub: 1,
+          },
+          opacity: 0,
+          scale: 1.35,
+          ease: 'back.out(2)',
+          stagger: { amount: 10, from: 'start' },
+        });
+    
+        // SERVICES ITEMS COUNT
+        const servicesSlides = $('.services-scroll-slide');
+    
+        servicesSlides.each(function (index) {
+          $(this)
+            .find('[services-scroll-card-count]')
+            .text((index + 1).toString().padStart(2, '0'));
+        });
+    
+        function setupAnimation() {
+          var tl = gsap.timeline({
+            scrollTrigger: {
+              trigger: '.services-scroll',
+              start: 'top top',
+              end: 'bottom bottom',
+              scrub: true,
+              // markers: true,
+            },
+          });
+    
+          var duration = 1; // Animation duration for each block
+          var delay = 0.5; // Delay between animations
+          var totalDuration = 0;
+    
+          tl.to(
+            servicesSlides.eq(0),
+            { opacity: 0, duration: duration },
+            totalDuration + delay
+          );
+          totalDuration += duration + delay;
+    
+          servicesSlides.each(function (index, element) {
+            if (index === 0) return;
+    
+            var $currentBlock = $(element);
+    
+            tl.to($currentBlock, { opacity: 1, duration: duration }, totalDuration);
+            totalDuration += duration;
+    
+            if (index < servicesSlides.length - 1) {
+              tl.to(
+                $currentBlock,
+                { opacity: 0, duration: duration },
+                totalDuration + delay
+              );
+              totalDuration += duration + delay;
+            }
+          });
+        }
+        mm.add('(min-width: 480px)', () => {
+          gsap.set(servicesSlides, { opacity: 0 });
+          gsap.set(servicesSlides.eq(0), { opacity: 1 });
+          setupAnimation();
+    
+          // CUSTOM DROPDOWN
+          // Checking if the device is touch-sensitive
+          const cardDropdown = $('[card-dropdown]');
+          const isTouchDevice =
+                'ontouchstart' in window ||
+                navigator.maxTouchPoints > 0 ||
+                navigator.msMaxTouchPoints > 0;
+    
+          function openDropdown(element) {
+            cardDropdown
+              .not(element)
+              .removeClass('active')
+              .find('[card-dropdown-list]')
+              .slideUp(200);
+            element.addClass('active').find('[card-dropdown-list]').slideDown(200);
+          }
+    
+          function closeDropdown(element) {
+            element.removeClass('active').find('[card-dropdown-list]').slideUp(200);
+          }
+    
+          if (isTouchDevice) {
+            cardDropdown.on('click', function (event) {
+              event.stopPropagation();
+              const $this = $(this);
+              $this.hasClass('active') ? closeDropdown($this) : openDropdown($this);
+            });
+    
+            $(document).on('click', function () {
+              closeDropdown(cardDropdown);
+            });
+          } else {
+            cardDropdown.hover(
+              function () {
+                openDropdown($(this));
+              },
+              function () {
+                closeDropdown($(this));
+              }
+            );
+          }
+        });
+    
+    
+    
+        // SLIDERS
+        function initSplideSlider(
+        el,
+         itemsPerPageDesktop,
+         itemsPerPageMobile,
+         type,
+         gapDesktop,
+         gapMobile,
+         autoHeight,
+         destroy,
+         pagination,
+         prevArrowSelector,
+         nextArrowSelector,
+        ) {
+          const splide = new Splide(el, {
+            type: type,
+            perPage: itemsPerPageMobile,
+            perMove: 1,
+            autoHeight: autoHeight,
+            gap: gapMobile,
+            flickPower: 500,
+            mediaQuery: 'min',
+            arrows: false,
+            pagination: pagination,
+            updateOnMove: true,
+            trimSpace: true,
+            breakpoints: {
+              480: {
+                perPage: itemsPerPageDesktop,
+                destroy: destroy,
+                gap: gapDesktop
+              },
+            },
+          }).mount();
+    
+          const totalSlides = splide.Components.Elements.slides.length;
+          const prevArrow = document.querySelector(prevArrowSelector);
+          const nextArrow = document.querySelector(nextArrowSelector);
+          const paginationElement = document.querySelector(`${el} .splide__pagination`); 
+    
+          if (totalSlides < 2) {
+            if (prevArrow) prevArrow.style.display = 'none';
+            if (nextArrow) nextArrow.style.display = 'none';
+            if (paginationElement) paginationElement.style.display = 'none'; 
+          } else {
+            function updateArrowStates() {
+              const currentIndex = splide.index;
+              const lastIndex = splide.Components.Controller.getEnd();
+    
+              if (prevArrow) {
+                prevArrow.disabled = currentIndex === 0;
+              }
+    
+              if (nextArrow) {
+                nextArrow.disabled = currentIndex === lastIndex;
+              }
+            }
+    
+            if (prevArrow) {
+              prevArrow.addEventListener('click', () => {
+                splide.go('<');
+              });
+            }
+    
+            if (nextArrow) {
+              nextArrow.addEventListener('click', () => {
+                splide.go('>');
+              });
+            }
+    
+            splide.on('mounted move', updateArrowStates);
+    
+            updateArrowStates();
+          }
+    
+          return splide;
+        }
+    
+        /* 
+        el,
+         itemsPerPageDesktop,
+         itemsPerPageMobile,
+         type,
+         gapDesktop,
+         gapMobile,
+         autoHeight,
+         destroy,
+         pagination,
+         prevArrowSelector,
+         nextArrowSelector
+         */
+        initSplideSlider(
+          '#industriesSlider', 
+          3, 
+          1, 
+          'slide', 
+          '1rem', 
+          '1rem', 
+          false, 
+          false, 
+          false, 
+          '[industries-scroll-arrows] .slider-prev-btn',
+          '[industries-scroll-arrows] .slider-next-btn',
+        );
+        initSplideSlider(
+          '#servicesScrollSlider',
+          1,
+          1,
+          'slide',
+          '1rem', 
+          '1.25rem',
+          true,
+          true,
+          true,
+          '#servicesScrollSlider .slider-prev-btn',
+          '#servicesScrollSlider .slider-next-btn',
+        );
+    
+        initSplideSlider(
+          '#testimonialSlider',
+          1,
+          1,
+          'fade',
+          '1rem', 
+          '1rem',
+          true,
+          false,
+          true,
+          '#testimonialSlider .slider-prev-btn',
+          '#testimonialSlider .slider-next-btn'
+        );
+    
+        // *WA ARE...* ANIMATION ON SCROLL
+        gsap.to('.about-paradigm-blur-2', {
+          scrollTrigger: {
+            trigger: '.about-paradigm-wrap',
+            start: 'top 70%',
+            end: 'bottom bottom',
+            scrub: 1,
+          },
+          // top: '78%',
+          top: '60%',
+        });
+    
+        gsap.to('.about-paradigm__svg-text', {
+          scrollTrigger: {
+            trigger: '.about-paradigm__svg-text',
+            start: 'top 90%',
+            end: 'top 70%',
+            scrub: 1,
+          },
+          opacity: 1,
+          duration: 5,
+        });
+    
+        // CARD ANIMATION ON hover
+        const rotateElements = document.querySelectorAll('[rotate-on-hover]');
+    
+        rotateElements.forEach((element) => {
+          element.addEventListener('mousemove', (event) => {
+            const rect = element.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+    
+            // Get the difference between the mouse position and the center of the element
+            const deltaX = event.clientX - centerX;
+            const deltaY = event.clientY - centerY;
+    
+            // We limit the rotation angle within -10 to 10 degrees
+            const rotateY = (deltaX / (rect.width / 2)) * 10;
+            const rotateX = -(deltaY / (rect.height / 2)) * 10;
+    
+            // Animate element rotation
+            gsap.to(element, {
+              duration: 0.5,
+              rotateX: rotateX,
+              rotateY: rotateY,
+              ease: 'power2.out',
+            });
+          });
+    
+          element.addEventListener('mouseleave', () => {
+            gsap.to(element, {
+              duration: 0.5,
+              rotateX: 0,
+              rotateY: 0,
+              ease: 'power2.out',
+            });
+          });
+        });
+    
+        // Line animation
+        const parent = document.querySelector('.about-paradigm-wrap');
+        const line1 = document.querySelector('.about-paradigm__line-1');
+        const line2 = document.querySelector('.about-paradigm__line-2');
+    
+        function animateLines() {
+          const parentHeight = parent.offsetHeight;
+    
+          // Animating the first line using Timeline
+          gsap.killTweensOf(line1);
+          gsap.set(line1, { y: 0, opacity: 0 });
+          const tl1 = gsap.timeline({
+            repeat: -1,
+            onRepeat: () => gsap.set(line1, { y: 0, opacity: 0 }),
+          });
+          tl1
+            .to(line1, { duration: 0.3, opacity: 1 })
+            .to(line1, { duration: 4, y: parentHeight, ease: 'none' }, '<')
+            .to(line1, { duration: 0.3, opacity: 0 }, 3);
+    
+          // Animating the Second Line Using Timeline
+          gsap.killTweensOf(line2);
+          gsap.set(line2, { y: 0, opacity: 0 });
+          const tl2 = gsap.timeline({
+            repeat: -1,
+            onRepeat: () => gsap.set(line2, { y: 0, opacity: 0 }),
+          });
+          tl2
+            .to(line2, { duration: 0.3, opacity: 1 })
+            .to(line2, { duration: 4, y: -parentHeight, ease: 'none' }, '<')
+            .to(line2, { duration: 0.3, opacity: 0 }, 3);
+        }
+    
+        animateLines();
+    
+        /*
+        window.addEventListener('resize', animateLines);
+        */
+    
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.2/parsley.min.js" integrity="sha512-eyHL1atYNycXNXZMDndxrDhNAegH2BDWt1TmkXJPoGf1WLlNYt08CSjkqF5lnCRmdm3IrkHid8s2jOUY4NIZVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script >
+      
+      gsap.registerPlugin(ScrollTrigger,MotionPathPlugin);
+      let mm = gsap.matchMedia();
+    
+      document.addEventListener("DOMContentLoaded", (event) => {
+          /*
+        // BUTTON ANIM
+        const buttons = document.querySelectorAll('[btn-border-anim]');
+    
+        function generateButtonPath(width, height, borderRadius) {
+          const maxRadius = Math.min(width, height) / 2;
+          const radius = Math.min(borderRadius, maxRadius);
+    
+          const path = `
+        M ${radius},0
+        H ${width - radius}
+        ${radius > 0 ? `A ${radius},${radius} 0 0 1 ${width},${radius}` : ''}
+        V ${height - radius}
+        ${radius > 0 ? `A ${radius},${radius} 0 0 1 ${width - radius},${height}` : ''}
+        H ${radius}
+        ${radius > 0 ? `A ${radius},${radius} 0 0 1 0,${height - radius}` : ''}
+        V ${radius}
+        ${radius > 0 ? `A ${radius},${radius} 0 0 1 ${radius},0` : ''}
+        Z
+      `;
+          return path;
+        }
+    
+        function animateButton(btn) {
+          const animBlock = btn.querySelector('.animating-block');
+    
+          function animateBlock() {
+            const rect = btn.getBoundingClientRect();
+            const width = rect.width;
+            const height = rect.height;
+    
+            const computedStyle = getComputedStyle(btn);
+            const borderRadiusValue = computedStyle.borderTopLeftRadius;
+    
+            let borderRadius = 0;
+            if (borderRadiusValue.endsWith('px')) {
+              borderRadius = parseFloat(borderRadiusValue);
+            } else if (borderRadiusValue.endsWith('%')) {
+              borderRadius = parseFloat(borderRadiusValue) / 100 * Math.min(width, height);
+            } else {
+              borderRadius = parseFloat(borderRadiusValue);
+            }
+    
+            const pathData = generateButtonPath(width, height, borderRadius);
+    
+            gsap.killTweensOf(animBlock);
+    
+            // Сбрасываем позицию animBlock
+            gsap.set(animBlock, { x: 0, y: 0, rotation: 0 });
+    
+            gsap.to(animBlock, {
+              duration: 7,
+              repeat: -1,
+              ease: "none",
+              motionPath: {
+                path: () => pathData, // Обновляем путь при каждом запуске анимации
+                align: false,
+                autoRotate: true,
+                start: 0,
+                end: 1,
+              }
+            });
+          }
+    
+          animateBlock();
+    
+          let resizeTimeout;
+          window.addEventListener('resize', () => {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(animateBlock, 300);
+          });
+        }
+    
+        buttons.forEach(btn => {
+          animateButton(btn);
+        });
+    */
+    
+        mm.add('(min-width: 991px)', () => {
+          // FADE IN ANIMATION
+          const fadeInAnimationElements = document.querySelectorAll(
+            '[fade-in-animation]'
+          );
+          fadeInAnimationElements.forEach((item) => {
+            gsap.to(item, {
+              scrollTrigger: {
+                trigger: item,
+                start: 'top 90%',
+              },
+              opacity: 1,
+              duration: 2,
+            });
+          });
+        });
+    
+        // SPLIT TEXT ANIMATION 2
+        function splitTextAndAnimate(textEl) {
+          new SplitType(textEl, { types: 'lines, words', tagName: 'span' });
+    
+          // textEl.find('.line').wrapInner('<span class="line-inner" style="display: block;"></span>');
+    
+          gsap.fromTo(
+            textEl.find('.word'),
+            { yPercent: 120 },
+            {
+              scrollTrigger: {
+                trigger: textEl,
+                start: 'top 90%',
+              },
+              yPercent: 0,
+              duration: 0.4,
+              ease: 'power1.out',
+              stagger: 0.1,
+            }
+          );
+        }
+    
+        function startSplitTextAndAnimate() {
+          $('[slide-up-text-anim-once]').each(function () {
+            splitTextAndAnimate($(this));
+          });
+        }
+        startSplitTextAndAnimate();
+    
+    
+        // FORM CODE
+        var maxLength = 1000; // Maximum number of characters
+        var $textarea = $('textarea');
+        var $hiddenDiv = $('#hiddenDiv');
+        var $charCount = $('[data-textarea="count"]'); // Element for displaying the number of characters
+        var $limitTextElement = $('[data-textarea="limit"]'); // The element to which the .error class should be added
+    
+    
+        // Input event handler for textarea
+        $textarea.on('input', function () {
+          var element = this;
+          var currentLength = element.value.length;
+    
+          if (currentLength > maxLength) {
+            // Обрезаем значение до максимальной длины
+            element.value = element.value.substring(0, maxLength);
+            currentLength = maxLength;
+          }
+    
+          var content = $textarea.val();
+    
+          // Заменяем символы новой строки на <br>
+          content = content.replace(/\n/g, '<br>&#8203;'); // Используем zero-width space для корректного измерения
+    
+          // Устанавливаем содержимое скрытого div
+          $hiddenDiv.html(content);
+    
+          // Копируем стили с textarea на hiddenDiv
+          var textareaStyle = window.getComputedStyle($textarea[0]);
+          $hiddenDiv.css({
+            'font-size': textareaStyle.fontSize,
+            'font-family': textareaStyle.fontFamily,
+            'line-height': textareaStyle.lineHeight,
+            'padding': textareaStyle.padding,
+            'border': textareaStyle.border,
+            'width': textareaStyle.width,
+            'box-sizing': textareaStyle.boxSizing,
+            'letter-spacing': textareaStyle.letterSpacing,
+          });
+    
+          // Устанавливаем высоту textarea равной высоте hiddenDiv
+          var newHeight = $hiddenDiv[0].offsetHeight;
+    
+          // Получаем реальный базовый размер шрифта
+          var rootFontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
+    
+          // Вычисляем высоту в rem с точностью до 4 знаков после запятой
+          var heightInRem = (newHeight / rootFontSize).toFixed(4);
+    
+    
+          // Устанавливаем высоту
+          $textarea.css('height', heightInRem + 'rem');
+    
+          // Обновляем отображение количества оставшихся символов
+          var remainingChars = maxLength - currentLength;
+          $charCount.text(remainingChars);
+    
+          // Добавляем или удаляем класс .error в зависимости от достигнутого лимита
+          if (currentLength >= maxLength) {
+            $limitTextElement.addClass('error');
+          } else {
+            $limitTextElement.removeClass('error');
+          }
+        });
+    
+        // Keydown event handler to prevent input when limit is reached
+        $textarea.on('keydown', function(e) {
+          var element = this;
+          var currentLength = element.value.length;
+    
+          // Allow deletion of characters and navigation through text
+          var allowedKeys = ['Backspace', 'Delete', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'Tab'];
+    
+          if (currentLength >= maxLength && !allowedKeys.includes(e.key) && !e.ctrlKey && !e.metaKey) {
+            e.preventDefault();
+          }
+        });
+    
+    
+        $('.w-form').on('submit', function() {
+          var form = $(this);
+          var checkSuccess = setInterval(function() {
+            if (form.find('.w-form-done').is(':visible')) {
+              clearInterval(checkSuccess);
+              // Скроллим к якорю
+              $('html, body').animate({
+                scrollTop: $("#form-box").offset().top - 100
+              }, 300);
+            }
+          }, 100);
+        });
+      });
+    
+      $(function() {  
+        SmoothScroll({
+          animationTime : 600,
+          stepSize : 100,
+    
+          accelerationDelta : 50,
+          accelerationMax : 2,
+    
+          keyboardSupport : true,
+          arrowScroll : 50,
+    
+          pulseAlgorithm : true,
+          pulseScale : 4,
+          pulseNormalize : 1,
+    
+          touchpadSupport : true,
+        });
+      });
+    //   document.addEventListener('DOMContentLoaded', () => {
+    //     // CLOSE VIDEO
+    //     const video = $('.video')[0];
+    //     const videoCloseButton = $('.video-close');
+    //     const fixedVideo = $('.fixed-video');
+    
+    //     if (video && videoCloseButton.length && fixedVideo.length) {
+    //       videoCloseButton.click(function () {
+    //         fixedVideo.fadeOut();
+    //         video.pause();
+    //       });
+    //     }
+    
+    //     // MUTED VIDEO
+    //     const muteButton = $('.video-muted');
+    //     const muteButtonIcon = $('.video-muted__icon');
+    
+    //     if (video && muteButton.length && muteButtonIcon.length) {
+    //       video.muted = true;
+    
+    //       muteButton.on('click', function () {
+    //         video.muted = !video.muted;
+    
+    //         muteButtonIcon.css('visibility', video.muted ? 'visible' : 'hidden');
+    //       });
+    //     }
+    
+    //     // HERO START ANIMATION
+    //     function initHeroAnimation() {
+    //       let widthValue = '102%';
+    
+    //       const tl = gsap.timeline();
+    
+    //       tl.to('.hero-border-wrap', {
+    //         opacity: 1,
+    //         width: widthValue,
+    //         duration: 1.5,
+    //       });
+    //       tl.to('[hero-content]', {
+    //         opacity: 1,
+    //         duration: 2.5,
+    //       }, '<15%');
+    //     }
+    //     initHeroAnimation();
+    
+    //     // MARQUEE
+    //     function initMarquee(el) {
+    //       const marqueeEl = document.querySelector(el);
+    
+    //       if (!marqueeEl) return;
+    
+    //       const marqueeTrack = marqueeEl.querySelector('.marquee-track');
+    //       if (!marqueeTrack) return;
+    
+    //       const marqueeContent = marqueeTrack.querySelectorAll('.marquee-content');
+    
+    //       marqueeContent.forEach((item) => {
+    //         const itemWidth = item.offsetWidth;
+    //         const clone = item.cloneNode(true);
+    //         item.appendChild(clone);
+    
+    //         gsap.to(item, {
+    //           x: -itemWidth,
+    //           duration: 25,
+    //           ease: 'linear',
+    //           repeat: -1,
+    //           modifiers: {
+    //             x: function (x) {
+    //               return (parseFloat(x) % itemWidth) + 'px';
+    //             },
+    //           },
+    //         });
+    //       });
+    //     }
+    //     initMarquee('.marquee');
+    
+    //     // SPLIT TEXT ANIMATION
+    //     let typeSplit = new SplitType('[split-text-animation]', {
+    //       types: 'words, chars',
+    //       tagName: 'span',
+    //     });
+    
+    //     let timeline_1 = gsap.timeline();
+    //     timeline_1.from('[split-text-animation] .char', {
+    //       scrollTrigger: {
+    //         trigger: '[split-text-animation]',
+    //         start: 'top 80%',
+    //         end: 'bottom 75%',
+    //         scrub: 1,
+    //       },
+    //       opacity: 0,
+    //       scale: 1.35,
+    //       ease: 'back.out(2)',
+    //       stagger: { amount: 10, from: 'start' },
+    //     });
+    
+    //     // SERVICES ITEMS COUNT
+    //     const servicesSlides = $('.services-scroll-slide');
+    
+    //     servicesSlides.each(function (index) {
+    //       $(this)
+    //         .find('[services-scroll-card-count]')
+    //         .text((index + 1).toString().padStart(2, '0'));
+    //     });
+    
+    //     function setupAnimation() {
+    //       var tl = gsap.timeline({
+    //         scrollTrigger: {
+    //           trigger: '.services-scroll',
+    //           start: 'top top',
+    //           end: 'bottom bottom',
+    //           scrub: true,
+    //           // markers: true,
+    //         },
+    //       });
+    
+    //       var duration = 1; // Animation duration for each block
+    //       var delay = 0.5; // Delay between animations
+    //       var totalDuration = 0;
+    
+    //       tl.to(
+    //         servicesSlides.eq(0),
+    //         { opacity: 0, duration: duration },
+    //         totalDuration + delay
+    //       );
+    //       totalDuration += duration + delay;
+    
+    //       servicesSlides.each(function (index, element) {
+    //         if (index === 0) return;
+    
+    //         var $currentBlock = $(element);
+    
+    //         tl.to($currentBlock, { opacity: 1, duration: duration }, totalDuration);
+    //         totalDuration += duration;
+    
+    //         if (index < servicesSlides.length - 1) {
+    //           tl.to(
+    //             $currentBlock,
+    //             { opacity: 0, duration: duration },
+    //             totalDuration + delay
+    //           );
+    //           totalDuration += duration + delay;
+    //         }
+    //       });
+    //     }
+    //     mm.add('(min-width: 480px)', () => {
+    //       gsap.set(servicesSlides, { opacity: 0 });
+    //       gsap.set(servicesSlides.eq(0), { opacity: 1 });
+    //       setupAnimation();
+    
+    //       // CUSTOM DROPDOWN
+    //       // Checking if the device is touch-sensitive
+    //       const cardDropdown = $('[card-dropdown]');
+    //       const isTouchDevice =
+    //             'ontouchstart' in window ||
+    //             navigator.maxTouchPoints > 0 ||
+    //             navigator.msMaxTouchPoints > 0;
+    
+    //       function openDropdown(element) {
+    //         cardDropdown
+    //           .not(element)
+    //           .removeClass('active')
+    //           .find('[card-dropdown-list]')
+    //           .slideUp(200);
+    //         element.addClass('active').find('[card-dropdown-list]').slideDown(200);
+    //       }
+    
+    //       function closeDropdown(element) {
+    //         element.removeClass('active').find('[card-dropdown-list]').slideUp(200);
+    //       }
+    
+    //       if (isTouchDevice) {
+    //         cardDropdown.on('click', function (event) {
+    //           event.stopPropagation();
+    //           const $this = $(this);
+    //           $this.hasClass('active') ? closeDropdown($this) : openDropdown($this);
+    //         });
+    
+    //         $(document).on('click', function () {
+    //           closeDropdown(cardDropdown);
+    //         });
+    //       } else {
+    //         cardDropdown.hover(
+    //           function () {
+    //             openDropdown($(this));
+    //           },
+    //           function () {
+    //             closeDropdown($(this));
+    //           }
+    //         );
+    //       }
+    //     });
+    
+    
+    
+    //     // SLIDERS
+    //     function initSplideSlider(
+    //     el,
+    //      itemsPerPageDesktop,
+    //      itemsPerPageMobile,
+    //      type,
+    //      gapDesktop,
+    //      gapMobile,
+    //      autoHeight,
+    //      destroy,
+    //      pagination,
+    //      prevArrowSelector,
+    //      nextArrowSelector,
+    //     ) {
+    //       const splide = new Splide(el, {
+    //         type: type,
+    //         perPage: itemsPerPageMobile,
+    //         perMove: 1,
+    //         autoHeight: autoHeight,
+    //         gap: gapMobile,
+    //         flickPower: 500,
+    //         mediaQuery: 'min',
+    //         arrows: false,
+    //         pagination: pagination,
+    //         updateOnMove: true,
+    //         trimSpace: true,
+    //         breakpoints: {
+    //           480: {
+    //             perPage: itemsPerPageDesktop,
+    //             destroy: destroy,
+    //             gap: gapDesktop
+    //           },
+    //         },
+    //       }).mount();
+    
+    //       const totalSlides = splide.Components.Elements.slides.length;
+    //       const prevArrow = document.querySelector(prevArrowSelector);
+    //       const nextArrow = document.querySelector(nextArrowSelector);
+    //       const paginationElement = document.querySelector(`${el} .splide__pagination`); 
+    
+    //       if (totalSlides < 2) {
+    //         if (prevArrow) prevArrow.style.display = 'none';
+    //         if (nextArrow) nextArrow.style.display = 'none';
+    //         if (paginationElement) paginationElement.style.display = 'none'; 
+    //       } else {
+    //         function updateArrowStates() {
+    //           const currentIndex = splide.index;
+    //           const lastIndex = splide.Components.Controller.getEnd();
+    
+    //           if (prevArrow) {
+    //             prevArrow.disabled = currentIndex === 0;
+    //           }
+    
+    //           if (nextArrow) {
+    //             nextArrow.disabled = currentIndex === lastIndex;
+    //           }
+    //         }
+    
+    //         if (prevArrow) {
+    //           prevArrow.addEventListener('click', () => {
+    //             splide.go('<');
+    //           });
+    //         }
+    
+    //         if (nextArrow) {
+    //           nextArrow.addEventListener('click', () => {
+    //             splide.go('>');
+    //           });
+    //         }
+    
+    //         splide.on('mounted move', updateArrowStates);
+    
+    //         updateArrowStates();
+    //       }
+    
+    //       return splide;
+    //     }
+    
+    //     /* 
+    //     el,
+    //      itemsPerPageDesktop,
+    //      itemsPerPageMobile,
+    //      type,
+    //      gapDesktop,
+    //      gapMobile,
+    //      autoHeight,
+    //      destroy,
+    //      pagination,
+    //      prevArrowSelector,
+    //      nextArrowSelector
+    //      */
+    //     initSplideSlider(
+    //       '#industriesSlider', 
+    //       3, 
+    //       1, 
+    //       'slide', 
+    //       '1rem', 
+    //       '1rem', 
+    //       false, 
+    //       false, 
+    //       false, 
+    //       '[industries-scroll-arrows] .slider-prev-btn',
+    //       '[industries-scroll-arrows] .slider-next-btn',
+    //     );
+    //     initSplideSlider(
+    //       '#servicesScrollSlider',
+    //       1,
+    //       1,
+    //       'slide',
+    //       '1rem', 
+    //       '1.25rem',
+    //       true,
+    //       true,
+    //       true,
+    //       '#servicesScrollSlider .slider-prev-btn',
+    //       '#servicesScrollSlider .slider-next-btn',
+    //     );
+    
+    //     initSplideSlider(
+    //       '#testimonialSlider',
+    //       1,
+    //       1,
+    //       'fade',
+    //       '1rem', 
+    //       '1rem',
+    //       true,
+    //       false,
+    //       true,
+    //       '#testimonialSlider .slider-prev-btn',
+    //       '#testimonialSlider .slider-next-btn'
+    //     );
+    
+    //     // *WA ARE...* ANIMATION ON SCROLL
+    //     gsap.to('.about-paradigm-blur-2', {
+    //       scrollTrigger: {
+    //         trigger: '.about-paradigm-wrap',
+    //         start: 'top 70%',
+    //         end: 'bottom bottom',
+    //         scrub: 1,
+    //       },
+    //       // top: '78%',
+    //       top: '60%',
+    //     });
+    
+    //     gsap.to('.about-paradigm__svg-text', {
+    //       scrollTrigger: {
+    //         trigger: '.about-paradigm__svg-text',
+    //         start: 'top 90%',
+    //         end: 'top 70%',
+    //         scrub: 1,
+    //       },
+    //       opacity: 1,
+    //       duration: 5,
+    //     });
+    
+    //     // CARD ANIMATION ON hover
+    //     const rotateElements = document.querySelectorAll('[rotate-on-hover]');
+    
+    //     rotateElements.forEach((element) => {
+    //       element.addEventListener('mousemove', (event) => {
+    //         const rect = element.getBoundingClientRect();
+    //         const centerX = rect.left + rect.width / 2;
+    //         const centerY = rect.top + rect.height / 2;
+    
+    //         // Get the difference between the mouse position and the center of the element
+    //         const deltaX = event.clientX - centerX;
+    //         const deltaY = event.clientY - centerY;
+    
+    //         // We limit the rotation angle within -10 to 10 degrees
+    //         const rotateY = (deltaX / (rect.width / 2)) * 10;
+    //         const rotateX = -(deltaY / (rect.height / 2)) * 10;
+    
+    //         // Animate element rotation
+    //         gsap.to(element, {
+    //           duration: 0.5,
+    //           rotateX: rotateX,
+    //           rotateY: rotateY,
+    //           ease: 'power2.out',
+    //         });
+    //       });
+    
+    //       element.addEventListener('mouseleave', () => {
+    //         gsap.to(element, {
+    //           duration: 0.5,
+    //           rotateX: 0,
+    //           rotateY: 0,
+    //           ease: 'power2.out',
+    //         });
+    //       });
+    //     });
+    
+    //     // Line animation
+    //     const parent = document.querySelector('.about-paradigm-wrap');
+    //     const line1 = document.querySelector('.about-paradigm__line-1');
+    //     const line2 = document.querySelector('.about-paradigm__line-2');
+    
+    //     function animateLines() {
+    //       const parentHeight = parent.offsetHeight;
+    
+    //       // Animating the first line using Timeline
+    //       gsap.killTweensOf(line1);
+    //       gsap.set(line1, { y: 0, opacity: 0 });
+    //       const tl1 = gsap.timeline({
+    //         repeat: -1,
+    //         onRepeat: () => gsap.set(line1, { y: 0, opacity: 0 }),
+    //       });
+    //       tl1
+    //         .to(line1, { duration: 0.3, opacity: 1 })
+    //         .to(line1, { duration: 4, y: parentHeight, ease: 'none' }, '<')
+    //         .to(line1, { duration: 0.3, opacity: 0 }, 3);
+    
+    //       // Animating the Second Line Using Timeline
+    //       gsap.killTweensOf(line2);
+    //       gsap.set(line2, { y: 0, opacity: 0 });
+    //       const tl2 = gsap.timeline({
+    //         repeat: -1,
+    //         onRepeat: () => gsap.set(line2, { y: 0, opacity: 0 }),
+    //       });
+    //       tl2
+    //         .to(line2, { duration: 0.3, opacity: 1 })
+    //         .to(line2, { duration: 4, y: -parentHeight, ease: 'none' }, '<')
+    //         .to(line2, { duration: 0.3, opacity: 0 }, 3);
+    //     }
+    
+    //     animateLines();
+    
+    //     /*
+    //     window.addEventListener('resize', animateLines);
+    //     */
+    
+    //   });
+
+    ocument.addEventListener("DOMContentLoaded", () => {
+        const $phoneInput = $('.is-phone');
+        $phoneInput.on('input', function() {
+          // Replace all characters that are not digits, '+', '(', or ')'
+          const sanitizedValue = $phoneInput.val().replace(/[^0-9()+]/g, '');
+    
+          // Allow '+' only at the beginning
+          if (sanitizedValue.indexOf('+') > 0) {
+            $phoneInput.val(sanitizedValue.replace(/\+/g, ''));
+          } else {
+            $phoneInput.val(sanitizedValue);
+          }
+        });
+      });
+    </script>
+    
+    </body>
+    </html>
